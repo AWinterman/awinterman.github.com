@@ -92,6 +92,9 @@ hr {
 	font-family: Georgia, Palatino sans-serif;
 	text-align: center; 
 }
+.caption {
+	width: 250px;
+}
 
 img {
 	margin: 5px 5px 5px 5px;

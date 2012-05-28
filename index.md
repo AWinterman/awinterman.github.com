@@ -1,11 +1,16 @@
 ---
-title: Home
-layout: archive
+title: Hello World!
+layout: default
 ---
 
-<link href="markdown.css" rel="stylesheet"></link>
 
 #Literature is Code#
 ##The adventures of a curious humanist##
+
+  <ul class="posts">
+    {% for post in site.posts %}
+      <li> <a href="{{ post.url }}">A post</a></li>
+    {% endfor %}
+  </ul>
 
 
