@@ -10,15 +10,21 @@ body{
     padding: 0 30px 30px;
     background: #262626;
 }
+
+h1 {
+    font-weight: 550;
+}
+
 h1, h2, h3, h4 {
     color:  #D4A017;
-    font-weight: 550;
     text-align: center;
 }
+
 .subtitle {
 	text-align: center;
 	width: 300px;
-	margin: auto
+	margin: auto;
+	color: #5A94C5;
 }
 h1, h2, h3, h4, h5, p {
     margin-bottom: 24px;
@@ -98,6 +104,9 @@ hr {
 }
 .caption {
 	width: 250px;
+	text-align: center;
+	margin: auto auto;
+	color: #5A94C5;
 }
 
 img {
