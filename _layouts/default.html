@@ -1,20 +1,30 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
-<head>
-   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-   <title>{{ page.title }}</title>
-   <meta name="author" content="Andrew Winterman" />
-   <link rel="stylesheet" href="{{root}}/css/markdown.css" type="text/css" />
-
-   <!-- Typekit -->
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<title>{{ page.title }}</title>
+		<meta name="author" content="Andrew Winterman" />
+		<link rel="stylesheet" href="{{root}}/css/markdown.css" type="text/css" />
 </head>
+
 <body>
+
+	<div class="header">
+		<div id="me">
+			<ul>
+				<li style="float: left; text-align: left;"> <a href="/index.html">Andrew Winterman</a> </li>
+				<li style="float: right"> {%if page.date%}{{page.date | date_to_string}}{% endif %}</li>
+			</ul>
+		</div>
+	</div>
+
+
 	<div class="inner">
 		{{ content }}
 	</div>
 
 	<div class="footer">
-		<div id="contact">
+		<div id="me">
 			<ul>
 				<li> email: <a href="andywinterman@gmail.com">andywinterman@gmail.com</a>  </li>
 				<li> twitter: <a href="https://twitter.com/#!/andywinterman">@andywinterman</a>  </li>
@@ -24,16 +34,16 @@
 	</div>
 
 
-<!-- Google Analytics -->
-<script type="text/javascript">
-var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-</script>
-<script type="text/javascript">
-var pageTracker = _gat._getTracker("UA-6016902-1");
-pageTracker._trackPageview();
-</script>
-<!-- Google Analytics end -->
+	<!-- Google Analytics -->
+	<script type="text/javascript">
+		var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+		document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+	</script>
+	<script type="text/javascript">
+		var pageTracker = _gat._getTracker("UA-6016902-1");
+		pageTracker._trackPageview();
+	</script>
+	<!-- Google Analytics end -->
 
 </body>
 </html>
