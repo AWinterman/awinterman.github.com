@@ -7,10 +7,10 @@ layout: default
 #Literature is Code#
 ##The adventures of a curious humanist##
 
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li> <a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
+<ul class="posts">
+{% for post in site.posts %}
+  <li> <a href="{{ post.url }}">{{ post.title }}</a></li>
+{% endfor %}
+</ul>
 
 
