@@ -1,15 +1,16 @@
 body{
-    margin: auto auto;
 
-	font-family:  "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
-	Helvetica, Arial, "Lucida Grande", sans-serif;
-    /*font-family: Georgia, Palatino, serif;*/
-    color: #BBB; /*#444444;*/
+    background: #262626;
+	font-family:  "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", "Lucida Grande", sans-serif;
+    }
+.inner {
+    margin: auto auto;
+	color: #BBB; /*#444444;*/
     line-height: 1;
     max-width: 960px;
     padding: 0 30px 30px;
-    background: #262626;
 }
+
 
 h1 {
     font-weight: 550;
@@ -22,9 +23,10 @@ h1, h2, h3, h4 {
 
 .subtitle {
 	text-align: center;
-	width: 300px;
+	width: 400px;
 	margin: auto;
 	color: #5A94C5;
+	line-height: 120%;
 }
 h1, h2, h3, h4, h5, p {
     margin-bottom: 24px;
@@ -74,7 +76,7 @@ code {
     font-family: Consolas, Monaco, Andale Mono, monospace;
     line-height: 1.5;
 }
-aside {
+.aside {
     display: block;
     float: right;
     width: 390px;
@@ -90,7 +92,7 @@ blockquote p {
 hr {
     width: 400px;
     text-align: center;
-    margin: 20 auto 20 auto;
+    margin: 20px auto 20px auto;
     color: #999;
 }
 
@@ -117,5 +119,21 @@ img {
 }
 
 .footer {
-	margin: auto 10 auto 10;
-}:
+	margin: 50px auto 0 auto;
+	background-color: #424242;
+	width: 100%;
+	height: 50px;
+}
+.footer li{
+	list-style-type: none;
+	display: inline;
+	margin:  20px 20px 20px 20px;
+	position: relative;
+	font-weight: normal;
+}
+
+#contact {
+	width: 60%;
+	margin:  auto auto;
+	color: #BBB;
+}
