@@ -5,7 +5,6 @@ layout: default
 
 
 #Literature is Code#
-##The adventures of a curious humanist##
 
 <ul class="posts">
 {% for post in site.posts %}
@@ -14,3 +13,5 @@ layout: default
 </ul>
 
 
+
+<img src="http://upload.wikimedia.org/wikipedia/en/c/cc/Caravaggio_incredulity.jpg" class = resize>

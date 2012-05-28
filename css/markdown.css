@@ -1,5 +1,5 @@
 body{
-    margin: 50 auto;
+    margin: auto auto;
 
 	font-family:  "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
 	Helvetica, Arial, "Lucida Grande", sans-serif;
@@ -115,3 +115,7 @@ img {
 .quote {
 	color: #999;
 }
+
+.footer {
+	margin: auto 10 auto 10;
+}:
