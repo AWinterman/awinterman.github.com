@@ -14,5 +14,5 @@ The difficult thing about including Caravaggios on webpages is context. These pa
 
 On the internet, this context is lost, and a new context is added: The camera-man's artifice. The machine before you. I give it context myself-- the color scheme of the website, the positioning of the image. I force you to scroll around it ino order to see the whole thing. 
 
-All these change your perspecive. I do not apologize. The painting is still beautiful. And the calling remains. <a href="http://www.youtube.com/watch?v=08e9k-c91E8&feature=related">"Sing, Oh Muse, of Achilles anger!"</a>
+All these change your perspecive. I do not apologize. The painting is still beautiful. And the calling remains. <a href="http://www.youtube.com/watch?v=08e9k-c91E8&feature=related">"Sing, Oh Muse, of the Wrath of Achilles!"</a>
 
