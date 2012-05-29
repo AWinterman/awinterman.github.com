@@ -1,6 +1,6 @@
 ---
 layout: post
-title: But is it Progress? 
+title: But is it Progressive? 
 subtitle: <em>Fifty Shades of Grey</em> by E.L. James.
 ---
 
