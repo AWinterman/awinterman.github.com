@@ -20,7 +20,7 @@ layout: default
 
 ------
 
-###Carravagio###
+###Caravaggio###
 
 <img src="http://upload.wikimedia.org/wikipedia/en/c/cc/Caravaggio_incredulity.jpg" class = resize>
 
