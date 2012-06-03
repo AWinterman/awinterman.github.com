@@ -8,7 +8,7 @@ subtitle: <em>Fifty Shades of Grey</em> by E.L. James.
 ________________
 
 <div class='img'>
-<img src="/images/50ShadesofGreyCoverArt.jpg" alt="A mischevious tie"/>
+<img class='right' src="/images/50ShadesofGreyCoverArt.jpg" alt="A mischevious tie"/>
 <div class='caption'>I'll have you know that this is a very mischevious tie. </div>
 </div>
 
@@ -19,7 +19,7 @@ It is not at all clear why this is the book that introduces middle America to al
 Other passages are repetitive-- language lifted almost verbatim from previous sections. Anastasia <span class="quote">"explodes around him,"</span> or is <span class="quote">"pushed over the edge"</span> by his husky-voiced <span class="quote">"Oh, baby"</span> dozens of times over the course of the book. The style is breathless, imperative and hopelessly first-person. Sex is always mind-blowing, wanton, and without reservation; so superlative one feels sorry for the dissapointment due James' adolescent readership. Nor is sex is ever turned down, or at least not for long. The book perpetuates the myth that men are perpetually aroused, and that they, for some reason, find virginity and innocence especially appealing. Like much adult media, *Fifty Shades of Grey* is explicit but not candid. 
 
 <div  class='img' >
-<img src='/images/dorian-gray.jpg' alt="Dorian Gray">
+<img class='right' src='/images/dorian-gray.jpg' alt="Dorian Gray">
 <div class='caption'> I wonder if Grey is actually <a href="http://www.amazon.com/Picture-Dorian-Modern-Library-Classics/dp/0375751513">Gray</a> </div>
 </div>
 
@@ -32,7 +32,7 @@ To be fair, it never claimed to be anything but a work of fantasy. The antagonis
 Chrisian Grey's far-fetched successes do make him a more compelling guide into the world of alternative sex. It is harder to dismiss him as one of *those people* when in fact he is one of those people whom we all envy and at least pretend to hope to become. It is a bit like [Warren Buffet talking about tax ineqaulity](http://www.youtube.com/watch?v=V1elCsgma68). Christian Grey fits nicely into a commonly admired cast-- a super-rich philanthropist with beauty and intelligence to match his wealth; a cross between Bill Gates and Kim Kardashian. The world he leads us to is indeed different, and the exploration of this reality is the redeeming feature of the book. 
 
 <div class='img'>
-<img src="/images/earthstood.jpg" alt="Say Hello to the Alien">
+<img class='right' src="/images/earthstood.jpg" alt="Say Hello to the Alien">
 <div class="caption"> Say <span class='quote'>'Hello'</span> to the alien! </div>
 </div>
 
@@ -44,8 +44,8 @@ As human-meets-alien science fiction, *Fifty Shades of Grey* is successful, broa
 The books success is not unmitigated. I think it fair to say that B.D.S.M. has an advertising problems, or maybe better put, B.D.S.M. advertises problems. This book fits the mold. For Anastasia, as soon as she learns of Christian's proclivities, the questions are <span class="quote">"Why? When? How, and with whom?"</span> in roughly that order. At first Christian tells her [it's simply a part of who he is](http://www.youtube.com/watch?v=xHBt9mHq-5c&t=0m48s), but eventually we learn that Christian had an abusive childhood and a troubled adolescence:
 
 <div class='img'>
-<img src="/images/blindfolded-lady.jpg" alt="Do more of this">
-<div class="caption">Let's do more of this!</div>
+<img class='right' src="/images/blindfolded-lady.jpg" alt="Do more of this">
+<div class="caption">Do more of this!</div>
 </div>
 
 > "Why do you need to control me?"
