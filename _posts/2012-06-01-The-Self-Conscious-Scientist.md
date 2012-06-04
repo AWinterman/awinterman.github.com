@@ -8,9 +8,9 @@ subtitle: Notes from the Field.
 
 <span class="quote">'Data Scientist'</span> is an interesting title. It sounds post-modern, self-referential. Data from observation, observation from science--  the science of science's results. If one considers the nature of technology today, the position seems well motivated and natural. There are these behemoth organizations - mercurial, corporate  scientist like <span class="quote">Google</span>, <span class="quote">Facebook</span>, and <span class="quote">Amazon </span> - literally making more observations than anyone has ever made before. Information is an asset, but data in the wild is  impenetrable, sprawling, and without grammar, full of reason, but without rhyme or rhythm; sensical but not interpretable; structured, but only for the dry, infinitely patient machines we have designed to do such things for us. Hence the demand for a new kind of scientist-- we make sense of this sound and fury.
 
-At larger companies fielding intensive applications, data scientists are PHD statisticians with a technical understanding of the mechanisms of data storage and retrieval. The job is a mix of data management and interpretation, requiring curiosity, discipline, and technical knowledge. These Data Scientists leverage the considerable deductive power of statistics and machine learning to make predictions, recognize trends, and interpret complicated phenomena with rational, reproducible methodologies which rigorously quantize uncertainty.
+At larger companies fielding intensive applications, data scientists are PHD statisticians with a technical understanding of the mechanisms of data storage and retrieval. The job is a mix of data management and interpretation. Data Scientists leverage the considerable deductive power of statistics and machine learning to make predictions, recognize trends, and interpret complicated phenomena with rational, reproducible methodologies which rigorously quantize uncertainty.
 
-At [Periscopic](http://www.periscopic.com/), a small information visualization company in Portland, Oregon, the job is somewhat different. Rather than statistics, I use information visualization as my primary method of communication.  
+At [Periscopic](http://www.periscopic.com/), a small company in Portland, Oregon, the job is somewhat different. Rather than statistics, I use information visualization as my primary method of communication.  
 
 <div class='img' style="float:none;">
 	<img  class='center' src='/images/the-self-conscious-scientist/minard_napoleon.png', style="opacity: 0.75;" width='800'>
@@ -28,7 +28,7 @@ It is surprising to see how much the prototyping I do can influence our final re
  <li > How many orders of magnitude will we have to depict?</li>
 </ul>
 
-The answers to these questions shapes the ultimate product. When the process goes well, we make interesting, interactive web experiences that translate data into a format the user can understand, framed in a way that makes it interesting and enjoyable to explore. My role is often that of data journalist. I receive a data set, and I need to quickly produce graphics answer the questions above so my more design-oriented coworkers can solve the problems its portrayal necessitates.
+The answers to these questions shapes the ultimate product. When the process goes well, we make interesting, interactive web experiences that translate data into a format the user can understand, framed in a way that makes it interesting and enjoyable to explore. My role is often that of data journalist. I receive a data set, and I need to quickly produce graphic answers the questionsi.
 
 
 ### Follow that Mapping! ###
@@ -42,7 +42,7 @@ As with more traditional journalism, honesty is very important. In this context,
 <div class='caption' style="width: 900px;"> The lie found out </div>
 </div>
 
-This is a plot of unemployment over eleven months during 2011. It cites its sources, labels its axes, and even annotates the points on the plot. This is a good thing, otherwise it would be impossible to see the issue without the outside research. <a href="http://mediamatters.org/blog/201112120005">Media Matters</a>, an organization which corrects misinformation in the media, marked up the chart to show the problem. You can see that the last data point is in the wrong place. This plot is a bald-faced, graphic lie. The last point is labelled correctly, but misplaced. It should be the lowest point on the graph. The shape of the graph has been manipulated to support an exogenous narrative. 
+This is a plot of unemployment over eleven months during 2011. It cites its sources, labels its axes, and even annotates the points on the plot. This is a good thing, otherwise it would be impossible to see the issue without the outside research. <a href="http://mediamatters.org/blog/201112120005">Media Matters</a>, an organization which corrects misinformation in the media, marked up the chart to show the problem. The last point is labelled correctly, but misplaced. It should be the lowest point on the graph. The shape of the graph has been manipulated to support an exogenous narrative. 
 
  
 <div class="aside">
@@ -53,7 +53,7 @@ Media Matters' article on this chart can be found <a href="http://mediamatters.o
 
 -------
 
-There are other, less ostentatious ways to mislead with graphics. Our eyes are wonderful organs, our cognitive facilities capable of effortlessly solving complicated physics problems-- triangulating an object's position in three dimensions, and deducing its trajectory. Unfortunately, we do not make interactive info-sculptures, where the viewer leverage that impressive interpretive power in her native environment. We are restricted to [Flatland](http://en.wikipedia.org/wiki/Flatland), and here the eye is easy to fool.  
+There are other, less ostentatious ways to mislead with graphics. Our eyes are wonderful organs, our cognitive facilities capable of effortlessly solving complicated physics problems-- triangulating an object's position in three dimensions, and deducing its trajectory. Unfortunately, we do not make interactive info-sculptures, where the viewer can leverage that impressive interpretive power. We are restricted to [Flatland](http://en.wikipedia.org/wiki/Flatland), and here the eye is easy to fool.  
 
 
 <div class='img' style="float:none;">
