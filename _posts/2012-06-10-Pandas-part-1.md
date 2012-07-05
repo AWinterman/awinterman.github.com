@@ -197,7 +197,7 @@ plt.show()
 {% endhighlight %}
 </div>
 
-<div class='img' style="float:none;">
+<div class='fig' style="float:none;">
 	<img src="/images/pandas-intro/DailyA.jpg", style="opacity: 0.85;">
 </div>
 
@@ -220,7 +220,7 @@ Let's start by having a look at 1991. At some point, probably during the aggrega
 
 {% endhighlight %}
 
-<div class='img' style="float:none;">
+<div class='fig' style="float:none;">
 	<img src="/images/pandas-intro/1991Daily.jpg", style="opacity: 0.85;">
 </div>
 
@@ -232,7 +232,7 @@ jan91 = obspertime.ix[start:pandas.datetime(year = 1991, month=2, day = 1)]
 jan91.plot(); plt.show()
 {% endhighlight %}
 	
-<div class='img' style="float:none;">
+<div class='fig' style="float:none;">
 	<img src="/images/pandas-intro/Jan1991Daily.jpg", style="opacity: 0.85;">
 </div>
 
@@ -252,7 +252,7 @@ month_means = grouped.mean()
 month_means.plot(); plt.show()
 {% endhighlight %}
 
-<div class='img' style="float:none;">
+<div class='fig' style="float:none;">
 	<img src="/images/pandas-intro/MonthlyAveragesACounts.jpg", style="opacity: 0.85;">
 </div>
 
