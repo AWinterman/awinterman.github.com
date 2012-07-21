@@ -22,6 +22,9 @@ In particular, does it hold that stock prices regress to some mean. Would placin
 ###Getting and characterizing the data###
 	
 For what follows, you'll need pandas (use `pip install pandas`. You also need a few other libraries (notably `matplotlib` for plotting.). I think you can get most of them using `pip install <LIBRARY-NAME>`, but your mileage may vary depending on your setup. Installing packages can sometimes be an unreasonable pain in the ass, especially if you haven't done it much before, so budget time accordingly.
+
+
+The data set is available [here](http://www.infochimps.com/datasets/amex-exchange-daily-1970-2010-open-close-high-low-and-volume), courtesy of the good folks over at infochimps
 	
 Let's get started.
 {% highlight py %}
