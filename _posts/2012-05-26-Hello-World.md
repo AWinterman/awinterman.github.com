@@ -7,7 +7,7 @@ subtitle: Eventually there will be an appropriate poem here
 Okay, I lied. This is actually written the day after the next post, not the day before. But I feel the need to inaugurate the blog, and my book review, however proud of it I may be, is not really the best piece with which to do this. So here we are. Eventually, this will be a poem (short) about the nature of perception, and a Caravaggio painting.
 
 
-<img src="http://upload.wikimedia.org/wikipedia/commons/1/10/Caravaggio_-_La_vocazione_di_San_Matteo.jpg" alt="The Calling of St. Mathieu" style = "margin-left: -150px">
+<img src="http://upload.wikimedia.org/wikipedia/commons/1/10/Caravaggio_-_La_vocazione_di_San_Matteo.jpg" alt="The Calling of St. Mathieu", class="fig">
 
 
 The difficult thing about including Caravaggios on web pages is context. These paintings are massive. Some of them fill walls in cathedrals-- there are little vestibules eighteen feet high with a Caravaggio on each side. Dim Summer light filters in through the doorway, more light comes from prayer candles, and what one imagines are electric simulacra of oil burning lamps. The painting itself is lit with strong, fixed position lighting which exaggerates the lights and the darks. These truly are small islands of humanity in a world lit only by fire; light, so important in Caravaggio, to the photographer who captured the painting for us, and to the reproduction of the image on your screen.
