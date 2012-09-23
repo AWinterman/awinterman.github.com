@@ -60,7 +60,7 @@ visualization software that will permit clear demonstration of the affects of
 rotation or translation matrices. A brief forray into technical applications
 could be made - for example [SVG
 transfromations](http://www.w3.org/TR/SVG/coords.html#TransformAttribute) -
-accepts a matrix which completely specifies the desired transformation. 
+accept a matrix which completely specifies the desired transformation. 
 
 
 The students should be made to suffer through matrix inversion when they first
@@ -69,14 +69,14 @@ of matrix inversion algorithms. They should be asked to prove properties the
 matrix inverse, and then use those properties to test their implementation.
 
 
-Their computer processes could also be use to provide a compelling introduction
+Their computer processes could also be used to provide a compelling introduction
 to a number of linear algebra applications. I personally found Linear Algebra
 to be one of the less interesting courses I took in college, but it is
 certainly the most useful - linear algebra concepts pop up all over the place -
 so this subject would especially benefit from brief forays into application.
 
 One example subject could be finding a Support Vector Machine (this would
-require multivariate calculus as a prerequisite) for an interesting prediction problem.
+require multivariable calculus as a prerequisite) for an interesting prediction problem.
 The class could even take a [Kaggle
 competition](http://www.kaggle.com/competitions) as its target, and learn the
 mathematics necessary to implement logistic regression, or a
