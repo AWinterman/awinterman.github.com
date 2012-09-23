@@ -27,19 +27,18 @@
 <body>
 
 	<div class="header">
-		<div id="me">
+		<div >
 			<ul>
-				<li style="float: left; text-align: left;"> <a href="/index.html">Andrew Winterman</a> </li>
+				<li style="float: left; text-align: left;"> <a href="/index.html"><strong>Literature is Code</strong></a> </li>
 				<li style="float: right"> {%if page.date%}{{page.date | date_to_string}}{% endif %}</li>
 			</ul>
 		</div>
 	</div>
-
-
+	<div style="height:20px"></div>
 	<div class="inner">
 		{{ content }}
 	</div>
-
+	<div style="height:20px"></div>
 	<div class="footer">
 		<div id="me">
 			<ul>

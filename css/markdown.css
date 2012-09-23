@@ -1,15 +1,15 @@
 body{
     background: #161616;
 	font-family:  "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", "Lucida Grande", sans-serif;
+	font-weight: normal;
 	height: 100%;
+	color: #DDD; /*#444444;*/
     }
 
 .inner {
-	margin: 20px auto 50px auto; 
-	color: #DDD; /*#444444;*/
+	margin: 50px auto 50px auto; 
     width: 860px;
 	overflow: hidden;
-	height: 100%;
     background: #262626;
 }
 
@@ -165,23 +165,30 @@ img .right {
 	margin: auto;
 	width: 600;
 }
+
 .footer, .header {
-	background-color: #424242;
-	width: 100%;
+	/*background-color: #424242;*/
+	width: 95%;
 	text-align: center;
+	transform: translate(5px,0);
+	-ms-transform: translate(2.5%,0px); /* IE 9 */
+	-webkit-transform: translate(2.5%,0px); /* Safari and Chrome */
+	-o-transform: translate(2.5%,0px); /* Opera */
+	-moz-transform: translate(2.5%,0px); /* Firefox */
 }
+
 .footer {
-	margin: 50px auto 0 auto;
-	padding: 10px 0px 0px 10px
-	position: relative;
+	margin: 0px auto 0 auto;
+	padding: 10px 0px 0px 0px;
+	position: absolute;
+	overflow: hidden;
 	margin-top: -40px; /* negative value of footer height */
 	height: 40px;
-	clear:both;} 
-
+	} 
 
 .header {
-	margin: 0px auto 100px auto;
-	position: absolute;
+	margin: 0px auto 0 auto;
+	position: fixed;
 	top: 0;
 	height: 50px;
 	overflow: hidden;
@@ -190,7 +197,8 @@ img .right {
 .footer li, .header li{
 	list-style-type: none;
 	display: inline;
-	margin:  5px 20px 15px 5px;
+	width: 180px;
+	margin:  0px 40px 80px 5px;
 	position: relative;
 	font-weight: normal;
 	list-style-type: none;
@@ -198,11 +206,10 @@ img .right {
 
 }
 
-
 #me {
-	width: 80%;
-	margin-left: auto ;
-	margin-right:auto;
+	/*width: 90%;*/
+	margin-left: auto;
+	margin-right: auto;
 	margin-top: -10px;
 	color: #BBB;
 }
