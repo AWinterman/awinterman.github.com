@@ -1,6 +1,6 @@
 --- 
 layout: post 
-title: A Programmer's Approach to Mathematics Education
+title: A Data Scientist Has Insights! 
 subtitle: Why do it yourself when a computer will do it for you?
 ---
 
