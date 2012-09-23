@@ -29,8 +29,9 @@
 	<div class="header">
 		<div >
 			<ul>
-				<li style="float: left; text-align: left;"> <a href="/index.html"><strong>Literature is Code</strong></a> </li>
-				<li style="float: right"> {%if page.date%}{{page.date | date_to_string}}{% endif %}</li>
+				<li style="float: left; text-align: left;"> 
+				<a href="/index.html">{% if page.url == "/index.html"  %}Andrew Winterman {%else%}Literature is Code{% endif %}</a> </li>
+				<li style="float: right"> {%if page.date%}{{page.date | date_to_string }}{% endif %}</li>
 			</ul>
 		</div>
 	</div>
