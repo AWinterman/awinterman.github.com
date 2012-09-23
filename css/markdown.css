@@ -78,7 +78,7 @@ a:visited {
 }
 
 p, ul, ol {
-    font-size: 16px;
+    font-size: 14px;
 	line-height: 24px
 }
 
@@ -109,7 +109,6 @@ code {
 	width: 100;
 	margin-left: 80%;
 	line-height: 120%;
-	font-size: 14px;
 }
 
 blockquote {
@@ -139,6 +138,21 @@ hr {
 	width: 800px;
 }
 
+
+.poem {
+	font-size: 14px;
+	line-height: 24px;
+	float: left;
+	margin-right: 2%;
+	margin-top:-20px;
+	padding-bottom: 2%;
+	padding-right: 2%;
+	white-space: pre;
+	color: #D4A017;
+	/*background: #313235;*/
+	border: 10px solid #262626;
+    line-height: 24px;
+}
 
 .caption {
 	width: 400px;
