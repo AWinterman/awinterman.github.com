@@ -93,7 +93,7 @@ have to implement even a t-test by hand in a career in science or statistics.
 As such, rather than learn the mechanics themselves, they should learn how to
 tell a computer to do the mechanics for them. They should learn how to test the
 computer's results, and how to write good, reusable code. All of these skills
-will ultimately be more useful than knowing how to invert an `n x m` matrix by
+will ultimately be more useful than knowing how to invert an `n x n` matrix by
 hand, for example. Moreover, I think they will help the student think
 conceptually about mathematics as a process, and help them see new advances in
 context of old algorithms.
