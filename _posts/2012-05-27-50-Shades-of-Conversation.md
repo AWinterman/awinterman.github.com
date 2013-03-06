@@ -5,7 +5,6 @@ subtitle: <em>Fifty Shades of Grey</em> by E.L. James.
 ---
 
 
-________________
 
 <div class='img'>
 <img class='right' src="/images/50ShadesofGreyCoverArt.jpg" alt="A mischevious tie"/>
@@ -26,14 +25,11 @@ Other passages are repetitive-- language lifted almost verbatim from previous se
 To be fair, it never claimed to be anything but a work of fantasy. The antagonist, Christian Grey, is an astounding polymath. Proficient dancer, pianist, pilot, philanthropist, dedicated student of sensuality, and CEO of a large company apparently in the process of airlifting food into Darfur (because feeding the hungry is the new black leather jacket). He inhabits the magic realm of the oligarchy: Full of omnipresent dedicated servants, spontaneous business trips, linen shirts, <span class="quote">"ultra-modern"</span> furnishings, an excess of empty space and - perhaps most impressive of all - the ability to purchase perfectly fitting clothes for a stranger without taking a single measurement. Tailors the world over would burn with jealousy. His leadership of his company seems to consist of the occasional speech, loud one-sided phone calls, and meetings he consents to sit through while exchanging witty emails with his girlfriend. His CEO trappings seem just that, trappings. 
 
 <h3> Exploring New Worlds of Sensation </h3>
-<hr style="width: 700; float: left;">
-<br>
-<br>
 Chrisian Grey's far-fetched successes do make him a more compelling guide into the world of alternative sex. It is harder to dismiss him as one of *those people* when in fact he is one of those people whom we all envy and at least pretend to hope to become. It is a bit like [Warren Buffet talking about tax ineqaulity](http://www.youtube.com/watch?v=V1elCsgma68). Christian Grey fits nicely into a commonly admired cast-- a super-rich philanthropist with beauty and intelligence to match his wealth; a cross between Bill Gates and Kim Kardashian. The world he leads us to is indeed different, and the exploration of this reality is the redeeming feature of the book. 
 
 <div class='img'>
 <img class='right' src="/images/earthstood.jpg" alt="Say Hello to the Alien">
-<div class="caption"> Say <span class='quote'>'Hello'</span> to the alien! </div>
+<div class="caption"> Say "Hello" to the alien! </div>
 </div>
 
 
@@ -43,22 +39,12 @@ As human-meets-alien science fiction, *Fifty Shades of Grey* is successful, broa
 
 The books success is not unmitigated. I think it fair to say that B.D.S.M. has an advertising problems, or maybe better put, B.D.S.M. advertises problems. This book fits the mold. For Anastasia, as soon as she learns of Christian's proclivities, the questions are <span class="quote">"Why? When? How, and with whom?"</span> in roughly that order. At first Christian tells her [it's simply a part of who he is](http://www.youtube.com/watch?v=xHBt9mHq-5c&t=0m48s), but eventually we learn that Christian had an abusive childhood and a troubled adolescence:
 
-<div class='img'>
-<img class='right' src="/images/blindfolded-lady.jpg" alt="Do more of this">
-<div class="caption">Do more of this!</div>
-</div>
-
 > "Why do you need to control me?"
 >
 > "Because it satisfies a need in my that wasn't met in my formative years."
 
 
-
-
  The subtext is that playing with sexual power dynamics is not something a normal, healthy person with a happy childhood would do with his partner. In other words, *Fifty Shades of Grey* does nothing to address the stereotype that you must be somehow damaged or depraved to engage in this sort of behavior. 
 
+
 Shortcomings aside, James does provide a healthy model of adult sexuality. The characters in the book have frank conversations about their desires. Honesty is rewarded with greater intimacy. Compromises are made. They establish terms and stand up for themselves. They talk about sexual health and their sexuality. Condoms are used with admirable regularity.  There are take-aways for even the most square among us, the most salubrious is that its okay to experiment, to be playful in the bedroom. If there is one thing our society needs, it is to [play more](http://www.inc.com/geoffrey-james/stop-working-more-than-40-hours-a-week.html). The book is effective: Americans are [talking](http://literaryman.com/2012/05/25/its-time-to-talk-about-50-shades-of-grey/) about it and [putting their money were their mouth is](http://www.businessweek.com/articles/2012-05-24/the-fifty-shades-of-grey-stimulus). The book has, in fact, started a [national debate](http://www.nytimes.com/2012/05/22/books/fifty-shades-of-grey-by-e-l-james-in-demand-at-libraries.html?pagewanted=all), and opened the minds of people all over the country. The publication and popularity of this book are a step forward for American sexuality. 
-
-
---------------
-

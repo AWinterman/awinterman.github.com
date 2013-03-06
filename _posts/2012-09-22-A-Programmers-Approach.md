@@ -23,9 +23,8 @@ decompositions](http://www.miislita.com/information-retrieval-tutorial/singular-
 analysis, but for the most part problem sets consisted of a series of proofs.
 
 One problem with this approach is I rarely felt comfortable applying these
-concepts. A friend glibly asserted that after Reed Math, he wouldn't be able to
-build a bridge, but he would be able to prove a bridge satisfying the
-appropriate constraints could exists in arbitrarily many dimensions. 
+concepts. A friend glibly asserted: "I can't build you a pridge, but I could 
+prove it exists in arbitrarly many dimensions."
 
 After a working at [Periscopic](www.periscopic.com), and scripting for about a
 year, it occurred to me that mathematics classes at Reed were structured like
@@ -34,10 +33,7 @@ them to build more complicated ideas over the course of the class, which also
 got me thinking about ways to give some classes more concrete contours
 without loosing that lovely, intimately theoretical approach.
 
-
->> In a sentence, the idea is to have students build a library that implements the
-concepts they learn over the course of the class. 
-
+> Build a library implementing the core concepts taught in class.
 
 For example, I could imagine a linear algebra class that proceeded along much
 the same lines as it did at Reed. We would start with the axioms of

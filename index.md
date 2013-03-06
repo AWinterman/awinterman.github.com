@@ -1,6 +1,6 @@
 ---
 title: Literature is Code
-layout: default
+layout: landing
 ---
 
 
@@ -10,15 +10,15 @@ layout: default
 
 ###Posts###
 
-<ul class="posts">
+<table class="posts">
 {% for post in site.posts %}
-  <li> <span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+  <tr> 
+        <td class=date> <span>{{ post.date | date_to_string }} </td>  <td class=postTitle><a href="{{ post.url }}">{{ post.title }}</a><td>
+  </tr>
 {% endfor %}
-</ul>
+</table>
 
 ------
 
 
-<img src="http://upload.wikimedia.org/wikipedia/en/c/cc/Caravaggio_incredulity.jpg" class = 'fig'>
 
-------

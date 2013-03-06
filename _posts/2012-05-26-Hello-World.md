@@ -1,6 +1,8 @@
 ---
-layout: post title: Welcome to my Eyes subtitle: Eventually there will be an
-appropriate poem here ---
+layout: post 
+title: Welcome to my Eyes 
+subtitle: Eventually there will be an appropriate poem here 
+---
 
 Okay, I lied. This is actually written the day after the next post, not the day
 before. But I feel the need to inaugurate the blog, and my book review, however
