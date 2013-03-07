@@ -13,7 +13,7 @@ At larger companies fielding intensive applications, data scientists are PHD sta
 At [Periscopic](http://www.periscopic.com/), a small company in Portland, Oregon, the job is somewhat different. Rather than statistics, I use information visualization as my primary method of communication.  
 
 <div class='img' style="float:none;">
-	<img  class='center' src='/images/the-self-conscious-scientist/minard_napoleon.png', style="opacity: 0.75;" width='800'>
+	<img  class='center' src='/images/the-self-conscious-scientist/minard_napoleon.png', style="" width='800'>
 <div class='caption' > "The most successful infographic ever made", depicting Napoleon's invasion of Russia. The width of the line is the size of Napolean's army. The beige part of the line is his advance (dates are annotated on the map), and the black part of the line is his retreat. Want more? go <a href="http://cartographia.wordpress.com/category/charles-joseph-minard/">here</a>. </div>
 </div>
 
@@ -38,7 +38,7 @@ The answers to these questions shapes the ultimate product. When the process goe
 As with more traditional journalism, honesty is very important. In this context, that means that the data must pass through my hands onto the page with no more artifice than necessary. The process must be a 1:1 mapping. The same input must yield the same output, no matter  the data point or the methodology chosen. This idea is fundamental to any sort of information visualization. A deviation from it is effectively a lie. For example, examine this chart from Fox News:
 
 <div class='img' style="float:none;">
-	<img src='/images/the-self-conscious-scientist/fnc-an-20111212-markedchart.jpg', style="opacity: 0.75;" >
+	<img src='/images/the-self-conscious-scientist/fnc-an-20111212-markedchart.jpg', style="" >
 <div class='caption' style="width: 900px;"> The lie found out </div>
 </div>
 
@@ -74,7 +74,7 @@ This is not just a curiosity resulting from the depiction of three dimensional o
 Even with well established methods popular in academia, design considerations can have a large effect on how a graphic is perceived. Look at the following chart of the same unemployment data Fox News depicted above, this one made by the Bureau of Labor Services itself.
 
 <div class='img' style="float:none;">
-	<img src='/images/the-self-conscious-scientist/bls-20111212-unemploymentrate-2011.jpg'  style="opacity: 0.75;" >
+	<img src='/images/the-self-conscious-scientist/bls-20111212-unemploymentrate-2011.jpg' >
 <div class='caption' style="width: 900px;"> No Lie, just a different aspect ratio. </div>
 </div>
 
@@ -91,7 +91,7 @@ A good visualization designer must be careful to avoid these pitfalls. The desig
 
 
 <div class='img' style="float:none;">
-	<img src='/images/the-self-conscious-scientist/Horizon.png', style="opacity: 0.95; width: 860px;" >
+	<img src='/images/the-self-conscious-scientist/Horizon.png', style="width: 860px;" >
 <div class='caption' style="width: 900px;"> I feel like we are looking at a mountain range. </div>
 </div>
 
@@ -99,7 +99,7 @@ This is a *horizon chart* pulled from Mike Bostock's [`cubism.js`](http://square
 
 
 <div class='img' style="float:none;">
-	<img src='/images/the-self-conscious-scientist/branches.jpg', style="opacity: 0.95; width: 860px;" >
+	<img src='/images/the-self-conscious-scientist/branches.jpg', style=" width: 860px;" >
 <div class='caption' style="width: 900px;"> Now we actually are looking at a mountain range. </div>
 </div>
 
@@ -117,4 +117,3 @@ Another example is this [wind chart](http://hint.fm/wind/index.html). Which depi
 
 Information visualisation is subtle work, the issue of a curious union of honesty in motivation, mathematics in production, and aesthetics in evaluation. It relies upon visual metaphor -- these are poems, produced with rigorous fidelity to the platonic original. Make no mistake, this is literature, encoded. Literature is code.
 
----------

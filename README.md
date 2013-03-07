@@ -11,3 +11,6 @@ Write another blog post:
 ###Possible topics:###
 - the perils of leaving talent alone.
 - an article on the natural origin of capitalism
+
+### This is an awesome orange: ###
+#f28b79
