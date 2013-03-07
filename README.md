@@ -5,8 +5,9 @@ A jekyll static site. Thank you github!
 TODO:
 
 Add an area for footnotes underneath the rule at the bottom.
-Add navigation (next post, last post).
 Write another blog post:
+Change position of nav away from fixed, or whatever tyhey are now, doesn't play
+nice with mobile.
 
 ###Possible topics:###
 - the perils of leaving talent alone.
