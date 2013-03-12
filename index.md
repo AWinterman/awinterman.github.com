@@ -11,7 +11,7 @@ layout: default
 
 <div class="about"> 
 <p> Intermittent opinions from a developer with a humanist bent hailing from the
-as-yet unfounded pragmatists' political party.
+yet-unfounded pragmatists' political party.
 </p>
 <p>Intermittent commentary on art,
 culture, maybe even technology, mixed in with observations of a personal
