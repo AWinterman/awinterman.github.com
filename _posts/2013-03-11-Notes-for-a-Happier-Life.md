@@ -3,7 +3,7 @@ layout: post
 title: Notes for a Happier Life
 ---
 
-I've noticed that over the course of a year, I make a number of resolutions,
+I've noticed that over the course of a year I make a number of resolutions,
 stick to them for a few months, and then forget about them. This is a log of
 those resolutions which I find most satisfying, both in the positive ("Do this
 thing"), and the negative ("Don't do this anymore").
