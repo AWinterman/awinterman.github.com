@@ -39,15 +39,14 @@ As with more traditional journalism, honesty is very important. In this context,
 
 <div class='img' style="float:none;">
 	<img src='/images/the-self-conscious-scientist/fnc-an-20111212-markedchart.jpg', style="" >
-<div class='caption' style="width: 900px;"> The lie found out </div>
+<div class='caption'> The lie found out 
+Media Matters' article on this chart can be found <a href=http://mediamatters.org/blog/201112120005>here</a>.
+</div>
 </div>
 
 This is a plot of unemployment over eleven months during 2011. It cites its sources, labels its axes, and even annotates the points on the plot. This is a good thing, otherwise it would be impossible to see the issue without the outside research. <a href="http://mediamatters.org/blog/201112120005">Media Matters</a>, an organization which corrects misinformation in the media, marked up the chart to show the problem. The last point is labelled correctly, but misplaced. It should be the lowest point on the graph. The shape of the graph has been manipulated to support an exogenous narrative. 
 
  
-<div class="aside">
-Media Matters' article on this chart can be found <a href="http://mediamatters.org/blog/201112120005">here</a>.
-</div>
 
 ###The Eye Can Be Fooled###
 

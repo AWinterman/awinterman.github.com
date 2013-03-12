@@ -40,29 +40,23 @@
         </div>
        <div class="right">
          {% if page.next.url %}
-           <div class="button">
-            <a href="{{page.next.url}}" title="Previous Post: {{page.next.title}}">
+            <a class= button href="{{page.next.url}}" title="Previous Post: {{page.next.title}}">
                      {{page.next.title}}&nbsp;&rsaquo;
             </a>
-        </div>
           {% endif %} 
 
         {% if page.previous.url %} 
-        <div class=button>
-            <a href="{{page.previous.url}}" title="Previous Post: {{page.previous.title}}">
+            <a class=button href="{{page.previous.url}}" title="Previous Post: {{page.previous.title}}">
                     &lsaquo;&nbsp;{{page.previous.title}} 
             </a>
-        </div>
         {% endif %} 
 
        </div>
     </div>
-    <div style="height:20px"></div>
     <div class="inner">
         {{ content }}
         <hr/>
     </div>
-    <div style="height:20px"></div>
     <div class="footer">
         <div id="me">
             <ul>

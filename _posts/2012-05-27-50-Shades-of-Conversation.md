@@ -4,13 +4,6 @@ title: But is it Progressive?
 subtitle: <em>Fifty Shades of Grey</em> by E.L. James.
 ---
 
-
-
-<div class='img'>
-<img class='right' src="/images/50ShadesofGreyCoverArt.jpg" alt="A mischevious tie"/>
-<div class='caption'>I'll have you know that this is a very mischevious tie. </div>
-</div>
-
 *Fifty Shades of Grey*, an erotic romance novel, has been steaming up e-ink displays all over the United States, with [more than 10 million copies sold](http://www.mediabistro.com/galleycat/fifty-shades-of-grey-sells-10-million-copies-in-6-weeks_b51901). This is remarkable because to my knowledge this is the first book to make it onto the best seller's list on the force of [e-publications alone](http://www.thedailybeast.com/articles/2012/03/17/50-shades-of-grey-a-self-published-e-book-is-the-future-of-publishing.html), but also because this book has a twist - or rather a kink. The relationship is not, in the parlance of those who know, <span class="quote">"vanilla."</span> The characters are Anastasia Steele, a virgin, green-eyed, bookish beauty with low self-esteem, and Christian Grey, a steely, CEO billionaire of unusual sexual prowess, a scarred past, and a very dominant persona. Their relationship is well lubricated by his limitless wealth and  the free time that running a large, lucrative corporation apparently affords. All love stories must have tension, and here it draws from Christian Grey's desire to hold Anastasia to a strict set of rules, and to punish her when she transgresses. Christian Grey would by turns fondle and paddle the well-formed backside of innocent Anastasia Steele. Anastasia, while appreciative of fondling, wants neither the rules nor the punishment. The scene thus set, the reader is carried along while these tensions find their inevitable release.
 
 It is not at all clear why this is the book that introduces middle America to alternative sex. There are promising components - the book features a relatable female protagonist, a sexy antagonist and an alluring title - but clich&eacute;s abound. Some passages had your correspondent chuckling out loud. At one point, Anastasia is left <span class="quote">"a quivering mass of raging female hormones."</span> She reports her expletives: Earnest *<span class="quote">"Shit"</span>*-s and *<span class="quote">"Holy cow"</span>*-s abound.
