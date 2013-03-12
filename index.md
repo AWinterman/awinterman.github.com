@@ -1,6 +1,6 @@
 ---
 title: Literature is Code
-layout: landing
+layout: default
 ---
 
 
@@ -18,7 +18,6 @@ layout: landing
 {% endfor %}
 </table>
 
-------
 
 
 

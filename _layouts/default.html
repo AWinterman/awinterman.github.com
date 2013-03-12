@@ -25,34 +25,32 @@
 </head>
 
 <body>
-
-    <div class="header">
-        <div class="left">
-            <a href="/index.html">
-                    {% if page.url == "/index.html" %}
+        <div class="header left inner">
+                {% if page.url == "/index.html" %}
                         Andrew Winterman 
-                    {%else%}
-                        Literature is Code
-                    {% endif %} 
-             </a> 
-             <br/>
-                 Posted: {%if page.date%}{{page.date | date_to_string }}{% endif %}
+                {%else%}
+                    <a href="/index.html">Literature is Code </a> 
+                     <br/>
+                     {%if page.date%}
+                         Posted on: {{page.date | date_to_string }}
+                     {% endif %}
+
+                {% endif %} 
         </div>
-       <div class="right">
+       <div class="header right">
          {% if page.next.url %}
-            <a class= button href="{{page.next.url}}" title="Previous Post: {{page.next.title}}">
+            <a class="button inner" href="{{page.next.url}}" title="Previous Post: {{page.next.title}}">
                      {{page.next.title}}&nbsp;&rsaquo;
             </a>
           {% endif %} 
 
         {% if page.previous.url %} 
-            <a class=button href="{{page.previous.url}}" title="Previous Post: {{page.previous.title}}">
+            <a class="button inner" href="{{page.previous.url}}" title="Previous Post: {{page.previous.title}}">
                     &lsaquo;&nbsp;{{page.previous.title}} 
             </a>
         {% endif %} 
 
        </div>
-    </div>
     <div class="inner">
         {{ content }}
         <hr/>
