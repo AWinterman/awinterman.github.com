@@ -15,7 +15,7 @@ thing"), and the negative ("Don't do this anymore").
 - [Observing my own thoughts](http://zenhabits.net/fundameditate/)
 - Exercising every other day.
 - Spanish conversations 
-- Long term Plans.
+- Long term plans.
 
 ### Negatives ###
 
