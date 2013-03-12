@@ -43,6 +43,11 @@
             <a class="button inner" href="{{page.next.url}}" title="Previous Post: {{page.next.title}}">
                      {{page.next.title}}&nbsp;&rsaquo;
             </a>
+          {% else %}
+           {% if page.url == '/index.html' %}
+           {% else %}
+            <a class="button inner" href="/">Literature is Code </a>
+            {% endif %}
           {% endif %} 
 
         {% if page.previous.url %} 
