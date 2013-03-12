@@ -248,7 +248,7 @@ img .right {
 
 .header {
     margin: 0px auto 0 auto;
-    position: fixed;
+    position: absolute;
     top: 0;
     overflow: hidden;
 }
