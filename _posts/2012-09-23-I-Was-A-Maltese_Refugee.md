@@ -48,8 +48,7 @@ Maltese are stuck in a sticky situation with no options which are both moral and
 political feasible.
 
 Paint me liberal, but I think the Maltese have been presented with an
-unheralded opportunity which, to hear the Times tell it, no one is
-acknowledging. Immigrants are motivated by the promise of a better life for
+unheralded opportunity. Immigrants are motivated by the promise of a better life for
 themselves and their families. If given the opportunity they will work hard for
 success. Immigrants are *not* the deadbeats of a nation. They had the
 motivation,  means, and  wherewithal to evaluate their situation and leave it
