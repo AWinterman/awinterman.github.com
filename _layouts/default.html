@@ -30,9 +30,10 @@
                         Andrew Winterman 
                 {%else%}
                     <a href="/index.html">Literature is Code </a> 
+                    <br/>
                      <br/>
                      {%if page.date%}
-                         Posted on: {{page.date | date_to_string }}
+                         Posted: {{page.date | date_to_string }}
                      {% endif %}
 
                 {% endif %} 
