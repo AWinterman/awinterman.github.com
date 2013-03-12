@@ -1,17 +1,16 @@
 blog
 ====
-A jekyll static site. Thank you github!
+A jekyll static site.
 
 TODO:
 
-Add an area for footnotes underneath the rule at the bottom.
+- Add an area for footnotes underneath the rule at the bottom.
 Write another blog post:
-Change position of nav away from fixed, or whatever tyhey are now, doesn't play
-nice with mobile.
 
 ###Possible topics:###
 - the perils of leaving talent alone.
 - an article on the natural origin of capitalism
+- Keep positions of nav buttons the same as you go
+- Add a class for margin notes. Make sure it behaves the way it should (margin
+  note apears in the right place).
 
-### This is an awesome orange: ###
-#f28b79
