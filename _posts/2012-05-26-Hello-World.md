@@ -12,7 +12,7 @@ perception, and a Caravaggio painting.
 
 
 <img
-src="http://upload.wikimedia.org/wikipedia/commons/1/10/Caravaggio_-_La_vocazione_di_San_Matteo.jpg"
+src="images/welcome-to-my-eyes/Caravaggio_-_La_vocazione_di_San_Matteo.jpg"
 alt="The Calling of St. Mathieu", class="fig">
 
 

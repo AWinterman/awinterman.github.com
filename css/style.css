@@ -1,5 +1,4 @@
 body{
-
     background: rgb(216, 216, 216);
     font-family: "Palatino Linotype","Book Antiqua",Palatino,FreeSerif,serif; 
     height: 100%;
@@ -10,7 +9,7 @@ body{
 .inner {
     background: rgb(216, 216, 216);
     margin: 5% auto 1% auto; 
-    width: 50%;
+    max-width: 38em;
     overflow: hidden;
 }
 
@@ -77,6 +76,7 @@ a {
     vertical-align: baseline;
     text-decoration: none;
 }
+
 a:hover {
     text-decoration: underline;
 }
