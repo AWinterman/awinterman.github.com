@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Making D3 more Humane
-subtitle: I'm not repeating myself anymore
-----
+subtitle: I'm not repeating myself *anymore*!
+---
 
 
 If you're wondering what I've been up to lately, well, I've started at [Urban
