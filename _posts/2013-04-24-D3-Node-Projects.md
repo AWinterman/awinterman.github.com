@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Making D3 more Humane
-subtitle: I'm not repeating myself *anymore*!
+subtitle: I'm not repeating myself anymore!
 ---
 
 
