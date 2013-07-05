@@ -1,0 +1,16 @@
+{
+  "name": "DRYing-up-d3",
+  "version": "0.0.0",
+  "description": "Example of d3-mapping module for use on blog site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "",
+  "author": "Andrew Winterman",
+  "license": "MIT",
+  "dependencies": {
+    "d3-mapping": "~0.3.0",
+    "d3": "~3.2.3"
+  }
+}
