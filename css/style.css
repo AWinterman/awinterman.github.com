@@ -1,5 +1,5 @@
 body{
-    background: rgb(216, 216, 216);
+    background: rgb(241, 240, 240);
     font-family: "Palatino Linotype","Book Antiqua",Palatino,FreeSerif,serif; 
     height: 100%;
     color: rgb(99, 98, 98); /*#444444;*/
@@ -7,7 +7,6 @@ body{
     }
 
 .inner {
-    background: rgb(216, 216, 216);
     margin: 5% auto 1% auto; 
     max-width: 38em;
     overflow: hidden;
@@ -22,7 +21,6 @@ body{
 
 h1, h2, h3, h4 {
     font-weight: 300;
-    /*color:  #D4A017;*/
     text-align: center;
 }
 
@@ -91,6 +89,7 @@ p, ul, ol {
     font-family: HelveticaNeue-Light, 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
     /* letter-spacing: 1pt; */
 }
+
 
 #content { 
     margin: 3%;
@@ -165,9 +164,10 @@ li {
 blockquote {
     max-width: 90%;
 }
+
 blockquote p {
     color: #6c71c4;
-    max-width: 50%;
+    max-width: 70%;
     margin: auto;
 }
 
@@ -186,16 +186,25 @@ hr {
 
 
 
-.poem {
+.poem, aside {
     font-size: 80%;
     line-height: 180%;
-    float: left;
-    margin-right: 2%;
     padding-bottom: 2%;
     padding-right: 2%;
-    white-space: pre;
-    /*background: #313235;*/
-    color: #6c71c4;
+}
+
+.poem {
+  float: left;
+  margin-right: 2%;
+  white-space: pre;
+  color: #6c71c4;
+}
+
+aside {
+    float: right;
+    margin-left: 2%;
+    max-width: 40%;
+    display: table-cell;
 }
 
 .caption {

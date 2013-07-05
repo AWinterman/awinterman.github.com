@@ -1,5 +1,5 @@
 auto: true
-markdown: rdiscount
+markdown: redcarpet 
 pygments: true
 
 
