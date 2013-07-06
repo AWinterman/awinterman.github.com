@@ -1,14 +1,12 @@
 ---
 title: Literature is Code
 layout: default
+about: A static site generated with [Jekyll](http://jekyllrb.com/), and hosted for free on [github](github.com). Find the [source](https://github.com/AWinterman/awinterman.github.com).
 ---
-
 
 #Literature is Code#
 
 -------
-
-
 <div class="about"> 
 <p> Intermittent opinions from a developer with a humanist bent hailing from the
 yet-unfounded pragmatists' political party.
@@ -21,8 +19,6 @@ nature and, if you're lucky, the occasional work of fiction.
 
 
 <div class="posts">
-
-
 <h3>Posts</h3>
 <table>
 {% for post in site.posts %}
@@ -32,9 +28,4 @@ nature and, if you're lucky, the occasional work of fiction.
 {% endfor %}
 </table>
 </div>
-
-<div class=notebook>
-<p> A static site generated with <a href="https://github.com/mojombo/jekyll">Jekyll</a>, and hosted for free on <a href="github.com">github</a>. Find the <a href="https://github.com/AWinterman/awinterman.github.com">source</a>.</p>
-</div>
-
 

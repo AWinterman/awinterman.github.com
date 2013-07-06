@@ -2,17 +2,16 @@ var Mapping = require("d3-mapping")
   , d3 = require("d3")
 
 var margin = {top: 0, right: 0, bottom: 0, left: 0}
-
-
-function draw(data) {
   var container = d3.select(".graph")
-    console.log(container.style("height"))
-    
     , height = container.style("height").slice(0,-2) - margin.left - margin.right
     , width = container.style("width").slice(0,-2)- margin.top - margin.bottom
 
-  var svg = d3.select(".graph").append("svg").append("g")
-      .attr("width", width + margin.left + margin.right)
+  var svg = d3.select(".graph").append("svg")
+    , g = svg.append("g")
+    , path = svg.append("path")
+
+function draw(data, svg, path) {
+      svg.attr("width", width + margin.left + margin.right)
       .attr("height", height + margin.top + margin.bottom)
       .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
@@ -37,8 +36,7 @@ function draw(data) {
   y.min(0)
 
   // Drawing the graph.
-  svg.append("path")
-      .datum(data)
+  path.datum(data)
       .attr("class", "area")
       .attr("d", area);
 
@@ -46,6 +44,9 @@ function draw(data) {
 
 
 d3.csv( "/data/timeseries-data.tsv", function(data) {
-  draw(data)
+  draw(data, svg, path)
+  window.onresize = function(){
+      draw(data, svg, path)
+    }
 });
 

@@ -16,7 +16,6 @@
 <div id=graph class=graph></div>
 <script src="{{root}}/graphs/{{page.graph}}/main.js"></script>
 {% endif %}
-
     <div class="header left inner">
             {% if page.url == "/index.html" %}
                     Andrew Winterman 
@@ -30,6 +29,7 @@
 
             {% endif %} 
     </div>
+
    <div class="header right">
      {% if page.next.url %}
      <a class="button inner"
@@ -45,8 +45,12 @@
        title="Previous Post: {{page.previous.title}}">
                 &lsaquo;&nbsp;{{page.previous.title}} 
         </a>
-    {% endif %} 
-
+    {% endif %}
+    {% if page.url == "/index.html" %}
+        <div class=notebook >
+        {{ page.about | markdownify }}
+        </div>
+    {% endif %}
    </div>
 
 
