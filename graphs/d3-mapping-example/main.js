@@ -1,20 +1,21 @@
 ;(function(e,t,n){function i(n,s){if(!t[n]){if(!e[n]){var o=typeof require=="function"&&require;if(!s&&o)return o(n,!0);if(r)return r(n,!0);throw new Error("Cannot find module '"+n+"'")}var u=t[n]={exports:{}};e[n][0].call(u.exports,function(t){var r=e[n][1][t];return i(r?r:t)},u,u.exports)}return t[n].exports}var r=typeof require=="function"&&require;for(var s=0;s<n.length;s++)i(n[s]);return i})({1:[function(require,module,exports){
 var Mapping = require("d3-mapping")
   , d3 = require("d3")
+  , w = require("wrappers")
 
 var margin = {top: 0, right: 0, bottom: 0, left: 0}
   var container = d3.select(".graph")
-    , height = container.style("height").slice(0,-2) - margin.left - margin.right
-    , width = container.style("width").slice(0,-2)- margin.top - margin.bottom
+  container.append("svg").append("g").append("path")
 
-  var svg = d3.select(".graph").append("svg")
-    , g = svg.append("g")
-    , path = svg.append("path")
+  console.log(container)
 
-function draw(data, svg, path) {
-      svg.attr("width", width + margin.left + margin.right)
-      .attr("height", height + margin.top + margin.bottom)
-      .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+function draw(data, container) {
+  var height = container.style("height").slice(0,-2) - margin.left - margin.right
+    , width = container.style("width").slice(0,-2) - margin.top - margin.bottom
+
+  container.select("g").attr("width", width + margin.left + margin.right)
+    .attr("height", height + margin.top + margin.bottom)
+    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
   var x = new Mapping(d3.time.scale(), function(d){return d3.time.format("%d-%b-%y").parse(d.date)})
   var y = new Mapping(d3.scale.linear(), function(d){return +d.close})
@@ -37,28 +38,181 @@ function draw(data, svg, path) {
   y.min(0)
 
   // Drawing the graph.
-  path.datum(data)
+  container.select("path")
+      .datum(data)
       .attr("class", "area")
       .attr("d", area);
 
   }
 
-
 d3.csv( "/data/timeseries-data.tsv", function(data) {
-  draw(data, svg, path)
-  window.onresize = function(){
-      draw(data, svg, path)
-    }
+  draw(data, container)
+  window.onresize = w.debounce(function() { 
+     draw(data, container) 
+  }, 20, true)
 });
 
 
-},{"d3-mapping":2,"d3":3}],3:[function(require,module,exports){
+},{"d3-mapping":2,"d3":3,"wrappers":4}],4:[function(require,module,exports){
+(function(){var slice = Array.prototype.slice
+  , w = {};
+
+var id = function (x) {
+  return x;
+};
+// ---------------------------------------------
+// Function Wrappers
+// ---------------------------------------------
+
+// numeric limitation wrappers
+w.once = function (fn) {
+  var done = false, result;
+  return function () {
+    if (!done) {
+      done = true;
+      result = fn.apply(this, arguments);
+    }
+    return result;
+  };
+};
+
+w.allow = function (fn, times) {
+  return function () {
+    if (times > 0) {
+      times -= 1;
+      return fn.apply(this, arguments);
+    }
+  };
+};
+
+w.after = function (fn, times) {
+  return function () {
+    times -= 1;
+    if (times < 1) {
+      return fn.apply(this, arguments);
+    }
+  };
+};
+
+// timer based wrappers
+w.throttle = function (fn, wait) {
+  var context, args, timeout, nextWait, result
+    , last = Date.now() - wait; // first one should start immediately
+
+  return function () {
+    context = this;
+    args = arguments;
+    nextWait = Math.min(wait, Math.max(wait - (Date.now() - last), 0));
+    if (!nextWait) {
+      result = fn.apply(context, args);
+      last = Date.now();
+    } else if (!timeout) {
+      timeout = setTimeout(function () {
+        timeout = null;
+        fn.apply(context, args);
+        last = Date.now();
+      }, nextWait);
+    }
+    return result;
+  };
+};
+
+w.repeat = function (fn, times, wait) {
+  return function () {
+    var args = arguments
+      , context = this
+      , count = 0;
+
+    var intId = setInterval(function () {
+      count += 1;
+      if (count >= times) {
+        clearInterval(intId);
+      }
+      fn.apply(context, args);
+    }, wait);
+  };
+};
+
+w.delay = function (fn, delay) {
+  return function () {
+    var context = this
+      , args = arguments;
+    setTimeout(function () {
+      return fn.apply(context, args);
+    }, delay);
+  };
+};
+
+// NB: process.nextTick more efficient in node
+w.defer = function (fn) {
+  return w.delay(fn, 0);
+};
+
+w.debounce = function (fn, wait, leading) {
+  var timeout;
+  return function () {
+    var context = this
+      , args = arguments;
+    if (leading && !timeout) {
+      fn.apply(context, args);
+    }
+    clearTimeout(timeout);
+    timeout = setTimeout(function () {
+      timeout = null;
+      if (!leading) {
+        fn.apply(context, args);
+      }
+    }, wait);
+  };
+};
+
+// debug wrappers
+w.trace = function (fn, log) {
+  log = log || console.log;
+  return function () {
+    var result = fn.apply(this, arguments);
+
+    log('(' + slice.call(arguments).join(', ') + ') -> ', result);
+    return result;
+  };
+};
+
+w.intercept = function (fn, interceptor) {
+  return function () {
+    interceptor.apply(this, arguments);
+    return fn.apply(this, arguments);
+  };
+};
+
+// misc. wrappers
+w.memoize = function (fn, hashFn) {
+  var memo = Object.create(null);
+  hashFn = hashFn || id;
+  return function () {
+    var key = hashFn.apply(this, arguments);
+    if (!(key in memo)) {
+      memo[key] = fn.apply(this, arguments);
+    }
+    return memo[key];
+  };
+};
+
+w.wrap = function (fn, wrapper) {
+  return function () {
+    return wrapper.apply(this, [fn].concat(slice.call(arguments)));
+  };
+};
+
+module.exports = w;
+
+})()
+},{}],3:[function(require,module,exports){
 (function(){require("./d3");
 module.exports = d3;
 (function () { delete this.d3; })(); // unset global
 
 })()
-},{"./d3":4}],4:[function(require,module,exports){
+},{"./d3":5}],5:[function(require,module,exports){
 d3 = function() {
   var d3 = {
     version: "3.2.3"

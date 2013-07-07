@@ -7,7 +7,7 @@ about: A static site generated with [Jekyll](http://jekyllrb.com/), and hosted f
 #Literature is Code#
 
 -------
-<div class="about"> 
+<div class="landing-page-detail"> 
 <p> Intermittent opinions from a developer with a humanist bent hailing from the
 yet-unfounded pragmatists' political party.
 </p>

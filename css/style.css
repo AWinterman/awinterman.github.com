@@ -1,9 +1,14 @@
-body{
+* {
+  overflow: visible
+}
+body {
     background: rgb(241, 240, 240);
     font-family: "Palatino Linotype","Book Antiqua",Palatino,FreeSerif,serif; 
     height: 100%;
     color: rgb(99, 98, 98); /*#444444;*/
     font-size: 1em;
+    margin:0;    
+    padding:0;   
     }
 
 .inner {
@@ -11,24 +16,14 @@ body{
     top: 0%;
     margin: 0% auto 1% auto; 
     max-width: 38em;
+    position:relative;
 }
 
 
-.about {
+.landing-page-detail {
     width: 70%;
     margin: auto;
 }
-
-
-h1, h2, h3, h4 {
-    font-weight: 300;
-    text-align: center;
-}
-
-.toHome {
-    font-size: 150%
-}
-
 
 .subtitle {
     text-align: center;
@@ -38,7 +33,9 @@ h1, h2, h3, h4 {
     width: 50%;
 }
 
-h1, h2, h3, h4, h5 {
+h1, h2, h3, h4 {
+    font-weight: 300;
+    text-align: center;
     margin-bottom: 3%;
     padding: 0%;
     margin-left: 5%;
@@ -61,12 +58,6 @@ h3 {
 h4 {
     font-size: 130%;
 }
-
-h5 {
-    font-size: 120%;
-    font-weight: normal;
-}
-
 
 a {
     color: #6c71c4;
@@ -94,6 +85,7 @@ p, ul, ol {
 
 #content { 
     margin: 3%;
+    min-height:100%
 }
 
 .posts {
@@ -148,23 +140,6 @@ a.button:hover {
     background:rgb(243, 123, 102);
 }
 
-
-
-
-
-/*
-li {
-    line-height: 24px;
-    list-style-position: outside;
-    max-width: 450px;
-  }
-  */
-
-
-blockquote {
-    max-width: 90%;
-}
-
 blockquote p {
     color: #6c71c4;
     max-width: 70%;
@@ -212,7 +187,6 @@ aside {
     text-align: center;
     margin: 2% auto;
     line-height: 150%;
-    /* color: #6c71c4; */
 }
 
 img {
@@ -220,14 +194,12 @@ img {
     margin: 3%;
 }
 
-
 li {
     margin: auto;
     width: 80%;
 }
 
 .footer, .header {
-    /*background-color: #424242;*/
     width: 95%;
 }
 
@@ -235,7 +207,6 @@ li {
     text-align: center;
     margin: 0% auto 0% auto;
     padding: 0% 0% 1.5% 0%;
-    position: absolute;
     overflow: hidden;
     } 
 
@@ -251,7 +222,6 @@ li {
 }
 
 .footer li {
-    list-style-type: none;
     display: inline;
     width: 18%;
     margin: 0% 5% 0% 2%;
@@ -260,7 +230,6 @@ li {
     font-weight: normal;
     list-style-type: none;
     text-align: center;
-
 }
 
 

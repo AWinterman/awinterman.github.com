@@ -12,10 +12,6 @@
 </head>
 
 <body>
-{% if page.graph %}
-<div id=graph class=graph></div>
-<script src="{{root}}/graphs/{{page.graph}}/main.js"></script>
-{% endif %}
     <div class="header left inner">
             {% if page.url == "/index.html" %}
                     Andrew Winterman 
@@ -54,6 +50,11 @@
    </div>
 
 
+{% if page.graph %}
+    <div id=graph class=graph></div>
+    <script src="{{root}}/graphs/{{page.graph}}/main.js"></script>
+{% endif %}
+
 <div class="inner">
     {{ content }}
     <hr/>
@@ -69,5 +70,5 @@
     </div>
 </div>
 
-</body>
+    </body>
 </html>
