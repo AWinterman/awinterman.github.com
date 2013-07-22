@@ -11,10 +11,7 @@ here we are. Eventually, this will be a poem (short) about the nature of
 perception, and a Caravaggio painting.
 
 
-<img
-src="images/welcome-to-my-eyes/Caravaggio_-_La_vocazione_di_San_Matteo.jpg"
-alt="The Calling of St. Mathieu", class="fig">
-
+![The Calling of St. Mathieu](/images/welcome-to-my-eyes/Caravaggio_-_La_vocazione_di_San_Matteo.jpg)
 
 The difficult thing about including Caravaggios on web pages is context. These
 paintings are massive. Some of them fill walls in cathedrals-- there are little

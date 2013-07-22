@@ -1,6 +1,22 @@
 * {
   overflow: visible
 }
+
+::selection {
+    background-color: rgb(243, 123, 102);
+    color: rgb(241, 240, 240);
+}
+
+::-moz-selection {
+    background-color: rgb(243, 123, 102);
+    color: rgb(241, 240, 240);
+}
+
+::-webkit-selection {
+    background-color: rgb(243, 123, 102);
+    color: rgb(241, 240, 240);
+}
+
 body {
     background: rgb(241, 240, 240);
     font-family: "Palatino Linotype","Book Antiqua",Palatino,FreeSerif,serif; 
@@ -61,10 +77,11 @@ h4 {
 
 a {
     color: #6c71c4;
-    margin: 0;
-    padding: 0;
     vertical-align: baseline;
     text-decoration: none;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    padding: 2px;
 }
 
 a:hover {
@@ -74,6 +91,16 @@ a:hover {
 a:visited {
     color: rgb(0, 151, 121);
 }
+
+/* selection states for links */
+a::selection {
+    color: #BABCE0;
+}
+
+a:visited::selection {
+    color: rgb(160, 207, 197);;
+}
+
 
 p, ul, ol {
     font-size: 100%;
@@ -119,7 +146,7 @@ p, ul, ol {
     margin-right: 1%;
     border-style: solid;
     border-color: #ccc;
-    border-width: 1px 3px 4px 1px;
+    border-width: 1px 1px 1px 1px;
     -moz-border-radius: 7px;
     -webkit-border-radius: 7px;
     font-size: 13pt;
@@ -129,15 +156,27 @@ p, ul, ol {
 }
 
 a.button:visited {
-    color: #6c71c4;
+    color: rgb(0, 151, 121);
 }
 
-a.button:hover {
+a:hover:visited {
+    color: rgb(160, 207, 197);
+}
+
+a:hover {
     background: rgb(0, 151, 121);
-    color: rgb(216, 216, 216);
+    color: #BABCE0;
     text-decoration: none;
      background: #f28b79;
     background:rgb(243, 123, 102);
+}
+
+a:hover, a {
+    -webkit-transition: opacity .3s,color .3s,background-color .3s,background-image .3s;
+    -moz-transition: opacity .3s,color .3s,background-color .3s,background-image .3s;
+    -ms-transition: opacity .3s,color .3s,background-color .3s,background-image .3s;
+    -o-transition: opacity .3s,color .3s,background-color .3s,background-image .3s;
+    transition: opacity .3s,color .3s,background-color .3s,background-image .3s;
 }
 
 blockquote p {
