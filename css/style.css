@@ -81,7 +81,8 @@ a {
     text-decoration: none;
     -moz-border-radius: 2px;
     -webkit-border-radius: 2px;
-    padding: 2px;
+    padding: 3px;
+    margin: -2px;
 }
 
 a:hover {

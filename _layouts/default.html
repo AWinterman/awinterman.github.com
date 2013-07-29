@@ -52,7 +52,6 @@
 
 {% if page.graph %}
     <div id=graph class=graph></div>
-    <script src="{{root}}/graphs/{{page.graph}}/main.js"></script>
 {% endif %}
 
 <div class="inner">
@@ -69,6 +68,11 @@
         </ul>
     </div>
 </div>
+
+
+{% if page.graph%}
+    <script src="{{root}}/graphs/{{page.graph}}/main.js"></script>
+{% endif %}
 
     </body>
 </html>

@@ -1,0 +1,44 @@
+rect {
+  fill: none;
+  pointer-events: all;
+}
+
+.node {
+  fill: #000;
+}
+
+#constructor {
+   user-select: none;
+   -o-user-select:none;
+   -moz-user-select: none;
+   -khtml-user-select: none;
+   -webkit-user-select: none;
+}
+
+.cursor {
+  fill: none;
+  stroke: brown;
+  pointer-events: none;
+}
+
+.cursor.delete {
+    fill: red;
+    stroke: red;
+    opacity: 0.1;
+}
+
+.link {
+  stroke: #999;
+}
+
+#constructor {
+    background: #fff;
+    box-shadow: 0px 1px 2px 0px;
+    border: 1px solid #AAA;
+    border-bottom: 1px solid #888;
+    border-radius: 3px;
+}
+
+#constructor p {
+    padding: 10px
+}
