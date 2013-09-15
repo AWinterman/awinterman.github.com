@@ -5,20 +5,17 @@ subtitle: An Extravaganza of Cryptic Errors
 ---
 
 So yesterday evening I decided to encrypt my the hard drive on my personal computer, a 13 inch
-retina macbook pro, using filvault. At first it was all hunkydory-- encrypted,
+retina macbook pro, using filevault. At first it was all hunkydory-- encrypted,
 wrote down the recovery key someplace secure, and continued working away at my
-deploy.sh script for my developement environemnt. 
+deploy.sh script for my development environment. 
 
 I'd occasionally had to restart (installed Xcode, for one), and each time I was
 presented with a snappy login in screen which asked me to decrypt the drive by
-entering my password. Then, suddenly, in the middle of puzzling out why the
-Comt. At first it was all hunkydory-- encrypted, wrote down the recovery key
-someplace secure, and continued working away at my deploy.sh script for my
-developement environemnt.  Then, while I was in the middle of trying to figure
-out a why installing [Command-T](https://wincent.com/products/command-t) would
-polute the current working directory with a bunch of `.o` and `.h` files in
-addition to a Makefile, vim suddenly frose, and I was presented with the dread 
-"Your computer restared because of a problem" message. I anxiously pressed the
+entering my password.  Then, while I was in the middle of trying to figure out
+a why installing [Command-T](https://wincent.com/products/command-t) would
+pollute the current working directory with a bunch of `.o` and `.h` files in
+addition to a Makefile, vim suddenly froze, and I was presented with the dread
+"Your computer restarted because of a problem" message. I anxiously pressed the
 any key to continue, which seemed like it was going okay until the mac just
 booted to the [no symbol](http://en.wikipedia.org/wiki/No_symbol) and gear that
 spun forever. 
