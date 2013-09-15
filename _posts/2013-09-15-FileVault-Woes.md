@@ -29,7 +29,8 @@ that is the mac help forums. So far it's been fun.
 I booted into recovery mode (hold `ctrl-R` during reboot). Hooray! there's a
 diskutility, with my encrypted disk like there. Okay, good, click it. Press
 unlock. Enter your password. The machine thinks for a good long while and then
-shakes its' head. Wat. And then, following that, the volume is removed from the
+shakes its' head. Wat. And then, if I veryify and repair the disk (again via
+diskutility), the volume is removed from the
 sidebar on the left. Weeeeee!
 
 Luckily there's a terminal available in recovery mode, complete with `diskutil`
@@ -59,6 +60,6 @@ blergh.
 
 At this point I'm just ready to wipe the disk. I don't have anything that
 important on here anyway, so who cares. But first breakfast. Updates after
-lunch.
+brunch.
 
 
