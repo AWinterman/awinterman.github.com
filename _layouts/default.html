@@ -17,11 +17,11 @@
                     Andrew Winterman 
             {%else%}
                 <a href="/">Literature is Code </a> 
-                <br/>
-                 <br/>
-                 {%if page.date%}
-                     Posted: {{page.date | date_to_string }}
-                 {% endif %}
+                  {%if page.date%}
+                  <div>
+                     {{page.date | date_to_string }}
+                   </div>
+                  {% endif %}
 
             {% endif %} 
     </div>
@@ -62,9 +62,9 @@
 <div class="footer">
     <div id="me">
         <ul>
-            <li> email: <a href="andywinterman@gmail.com">andywinterman@gmail.com</a>  </li>
-            <li> twitter: <a href="https://twitter.com/#!/andywinterman">@andywinterman</a>  </li>
-            <li> github: <a href="https://github.com/AWinterman">AWinterman</a>  </li>
+            <li> email:&nbsp;<a href="andywinterman@gmail.com">andywinterman@gmail.com</a>  </li>
+            <li> twitter:&nbsp;<a href="https://twitter.com/#!/andywinterman">@andywinterman</a>  </li>
+            <li> github:&nbsp;<a href="https://github.com/AWinterman">AWinterman</a>  </li>
         </ul>
     </div>
 </div>

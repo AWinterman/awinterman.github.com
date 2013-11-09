@@ -25,7 +25,7 @@ body {
     font-size: 1em;
     margin:0;    
     padding:0;   
-    }
+}
 
 .inner {
     display: table;
@@ -110,6 +110,10 @@ p, ul, ol {
     /* letter-spacing: 1pt; */
 }
 
+p {
+  text-align: justify;
+}
+
 
 #content { 
     margin: 3%;
@@ -154,6 +158,14 @@ p, ul, ol {
     color: inherit;
     width: 100%;
     padding: 5%;
+}
+
+aside {
+    display: inline-block;
+    position: absolute;
+    margin-top: 8%;
+    margin-left: 100%;
+    min-width: 15em;
 }
 
 a.button:visited {
@@ -215,14 +227,6 @@ hr {
   color: #6c71c4;
 }
 
-aside {
-    float: right;
-    margin-left: 2%;
-    margin-right: -20em;
-    max-width: 40%;
-    display: table-cell;
-}
-
 .caption {
     text-align: center;
     margin: 2% auto;
@@ -230,8 +234,9 @@ aside {
 }
 
 img {
-    width: 100%;
-    margin: 3%;
+    width: 90%;
+    margin: auto;
+    padding: 5%
 }
 
 li {
