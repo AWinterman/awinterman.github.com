@@ -7,7 +7,7 @@ layout: post
 All images from [this excellent twitter account](https://twitter.com/RealTimeWWII) unless otherwise noted.
 </aside>
 
-![This is what a city at war looks like]({{ site.url }}/images/not_at_war/war.jpg-large)
+![This is what a city at war looks like](/images/not_at_war/war.jpg-large)
 
 
 We are not at war. We are not at war against drugs, we are not at war against
@@ -25,14 +25,14 @@ sandwiches. Let's talk about rationing weekly consumption to a paltry table of
 meats and dairy, because otherwise there will simply not be enough to last the
 winter.
 
-![One Weeks Rations]({{ site.url }}/images/not_at_war/weeks_rations.jpg-large)
+![One Weeks Rations](/images/not_at_war/weeks_rations.jpg-large)
 
 Let's talk about the Blitz&mdash; the whole city of London pounded with
 incendiaries and high explosives. Subway tunnels packed with people lying head
 to foot, all of them freezing, hungry, sheltering from the bombs, a nation made
 pauper. 
 
-![Tube Station, courtesy of http://www.theatlantic.com/infocus/2011/06/world-war-ii-before-the-war/100089]({{ site.url }}/images/not_at_war/tube-station.jpg)
+![Tube Station, courtesy of http://www.theatlantic.com/infocus/2011/06/world-war-ii-before-the-war/100089](/images/not_at_war/tube-station.jpg)
 
 Let's talk about occupation. Let's talk about martial law, and curfew, and
 severe repercussions for those who would resist. Let's talk about persecution
@@ -48,7 +48,7 @@ service you would rather not pay for in the remote case one of your employees
 would ask for it. It is not a tax rate applied fairly across your income
 bracket. It is not nationally mandated health care.
 
-![Resistors Will be Shot]({{ site.url }}/images/not_at_war/resistors_shot.jpg-large)
+![Resistors Will be Shot](/images/not_at_war/resistors_shot.jpg-large)
 
 So the next time you feel inclined to describe political attitudes, police
 action, socioeconomic inequality, a global policy priority, or or for god's
