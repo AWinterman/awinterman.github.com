@@ -10,16 +10,18 @@ All images from [this excellent twitter account](https://twitter.com/RealTimeWWI
 ![This is what a city at war looks like](/images/not_at_war/war.jpg-large)
 
 
-We are not at war. We are not at war against drugs, we are not at war against
-terror, we are not at war against Christmas. If anything, we are at war against
-Pakistan and the Taliban, but in reality there should be another name for
-actions like these&mdash; maybe "Low intensity conflict" or "A International Robotic Campaign of Terror," or "Nation Building," but these are unlike war.
+We are not at war. We are not at war against drugs. We are not at war against
+terror. We are not at war against Christmas (and nor is anybody else). If
+anything, we are at war against Pakistan and the Taliban, but in reality there
+should be another name for actions like these&mdash; maybe "Low intensity
+conflict" or "An International Robotic Campaign of Terror," or "Nation
+Building," but these are unlike war.
 
 We are not at war because wars are big. War changes what it means to be a
 citizen. Wars are terrible. Wars mean we're all in it together. Let's talk
 about war. Let's talk about World War II.
 
-Let's talk about food shortages in Britain, government propaganda encouraging
+Let's talk about food shortages in Britain, and government propaganda encouraging
 you to eat more potatoes, or officially sanctioned recipes for carrot
 sandwiches. Let's talk about rationing weekly consumption to a paltry table of
 meats and dairy, because otherwise there will simply not be enough to last the
@@ -41,17 +43,17 @@ is also responsible for destroying your existing government, upending the
 status quo by force, and whose express purpose is to transfer wealth from your
 community to their own. Let's talk about might makes right rather than some
 combination of debate and money, in which the consequences of your indiscretion
-are public execution rather than public than shame.
+are public execution rather than public shame.
 
 Let's talk about what persecution means. It's not having to pay for a health
-service you would rather not pay for in the remote case one of your employees
+service you would rather not pay for in the case one of your employees
 would ask for it. It is not a tax rate applied fairly across your income
 bracket. It is not nationally mandated health care.
 
 ![Resistors Will be Shot](/images/not_at_war/resistors_shot.jpg-large)
 
 So the next time you feel inclined to describe political attitudes, police
-action, socioeconomic inequality, a global policy priority, or or for god's
+action, socioeconomic inequality, a global policy priority, or for god's
 sake a lack of government recognition for your favorite holiday as a war,
 consider what real wars look like. 
 
