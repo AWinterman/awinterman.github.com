@@ -10,7 +10,11 @@ body {
     display: inline-block;
 }
 
-h2 {
+h2, h3, h4, h5 {
+    font-weight: lighter
+}
+
+nav h2 {
     font-weight: lighter;
     margin-left: 1em;
 }
@@ -35,6 +39,10 @@ a {
 
 a:hover {
     text-decoration: underline
+}
+
+nav .blog a:hover {
+    text-decoration: none
 }
 
 nav li {

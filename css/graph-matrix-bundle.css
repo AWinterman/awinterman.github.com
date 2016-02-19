@@ -1,0 +1,21 @@
+    g.tick text {
+      display: None;
+    }
+
+    g.tick.show text {
+      display: inline;
+      font-size: 0.6em;
+    }
+
+    g.tick line {
+      stroke: grey;
+      stroke-width: 1px;
+    }
+
+    circle {
+      opacity: 0.5;
+    }
+    
+    .domain {
+      display: None;
+    }
