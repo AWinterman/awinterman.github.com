@@ -6,73 +6,54 @@
         <meta name="author" content="Andrew Winterman" />
         <link rel="stylesheet" href="{{root}}/css/style.css" type="text/css" />
         <link rel="stylesheet" href="{{root}}/css/syntax.css" type="text/css" />
-        {% if page.graph %} 
-        <link rel=stylesheet href={{root}}/graphs/{{page.graph}}/graph-style.css  />
- {% endif %}
 </head>
 
 <body>
-    <div class="header left inner">
-            {% if page.url == "/index.html" %}
-                    Andrew Winterman 
-            {%else%}
-                <a href="/">Literature is Code </a> 
-                  {%if page.date%}
-                  <div>
-                     {{page.date | date_to_string }}
-                   </div>
-                  {% endif %}
-
-            {% endif %} 
-    </div>
-
-   <div class="header right">
-     {% if page.next.url %}
-     <a class="button inner"
-         href="{{page.next.url}}" 
-         title="Previous Post: {{page.next.title}}">
-                 {{page.next.title}}&nbsp;&rsaquo;
-        </a>
-      {% endif %} 
-
-    {% if page.previous.url %} 
-    <a class="button inner"
-       href="{{page.previous.url}}" 
-       title="Previous Post: {{page.previous.title}}">
-                &lsaquo;&nbsp;{{page.previous.title}} 
-        </a>
-    {% endif %}
-    {% if page.url == "/index.html" %}
-        <div class=notebook >
-        {{ page.about | markdownify }}
-        </div>
-    {% endif %}
-   </div>
-
-
-{% if page.graph %}
-    <div id=graph class=graph></div>
-{% endif %}
-
-<div class="inner">
-    {{ content }}
-    <hr/>
-</div>
-
-<div class="footer">
-    <div id="me">
+    <nav>
+      <h2>
+            <a href="/">/</a> 
+      </h2>
+      <div>
+        <h2>me</h2>
         <ul>
-            <li> email:&nbsp;<a href="andywinterman@gmail.com">andywinterman@gmail.com</a>  </li>
-            <li> twitter:&nbsp;<a href="https://twitter.com/#!/andywinterman">@andywinterman</a>  </li>
-            <li> github:&nbsp;<a href="https://github.com/AWinterman">AWinterman</a>  </li>
+            <li>
+            <a href=https://s3.amazonaws.com/awinterman-assets/AndrewWintermanResume.pdf>Resume</a>
+            </li>
         </ul>
-    </div>
-</div>
+      </div>    
+      <div>
+        <h2>projects</h2>
+        <ul>
+            <li>
+                <a href="http://awinterman.github.io/simple-scuttle/">Simple Scuttle</a>
+            </li>
+            <li>
+                <a
+                    href="https://github.com/AWinterman/api_object_specification">
+                    JSON API Specification Language
+                </a>
+            </li>
+            <li>
+                <a href="https://github.com/AWinterman/node-fsj">fsj</a> and
+                <a href="https://github.com/AWinterman/fsj-render">assorted</a> <a href="https://github.com/AWinterman/fsj-blog">projects</a>
+            </li>
+        </ul>
+      </div>    
+      <div class="blog">
+          <h2>blergh</h2>
+        <ul>
+        {% for post in site.posts %}
+        <li {% if post.slug == page.slug %} class="current" {% endif %}>
+            <div><a href="{{ post.url }}"> {{ post.title }} </a></div>
+            <div>({{ post.date | date_to_string }})</div>
+        </li>
+        {% endfor %}
+        </ul>
+      </div>
+    </nav>
 
-
-{% if page.graph%}
-    <script src="{{root}}/graphs/{{page.graph}}/main.js"></script>
-{% endif %}
-
+    <article>
+        {{ content }}
+    </article>
     </body>
 </html>
