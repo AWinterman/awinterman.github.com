@@ -1,11 +1,11 @@
 
 body {
-    font-family: "Palatino Linotype","Book Antiqua",Palatino,FreeSerif,serif; 
+    font-family: "Palatino Linotype","Book Antiqua",Palatino,FreeSerif,serif;
     height: 100%;
     font-size: 1em;
     line-height: 1.25;
-    margin:0;    
-    padding:0;   
+    margin: 0;
+    padding: 0;
     text-align: justify;
     display: inline-block;
 }
@@ -22,11 +22,12 @@ nav h2 {
 article {
     max-width: 40em;
     float: right;
+    padding-right: 1em;
 }
 
 nav {
     float: left;
-    width: 15em;
+    max-width: 15em;
     text-align: left;
     padding-right: 3em;
 }
@@ -50,12 +51,11 @@ nav li {
     list-style: none;
     padding-left: 0.1em;
     padding: 0.5em 0em 0.5em 0.5em;
-    margin-left: -0.5em; 
+    margin-left: -0.5em;
     border: 1px solid white;
 }
 
-nav li.current, nav div.blog li:hover  {
-    width: 100%;
+nav li.current, nav div.blog li:hover {
     border: 1px solid grey;
 }
 
@@ -72,7 +72,7 @@ aside {
 .img {
     margin: 5px 5px 15px 15px;
     font-size: 80%;
-    text-align: center; 
+    text-align: center;
 }
 
 
@@ -85,9 +85,9 @@ aside {
 }
 
 .poem {
-  float: left;
-  margin-right: 2%;
-  white-space: pre;
+    float: left;
+    margin-right: 2%;
+    white-space: pre;
 }
 
 .caption {
@@ -101,3 +101,44 @@ img {
     margin: auto;
     padding: 5%
 }
+
+[name=toggle] {
+  display: none;
+}
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2),
+only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3),
+(max-width: 60em) {
+    nav {
+        min-width: 5em;
+    }
+
+    [name=items] {
+        position: absolute;
+        background-color: rgba(255,255,255,0.9);
+    }
+
+    article {
+        float: right;
+        width: 95%;
+    }
+
+    [name=toggle] {
+      display: block;
+    }
+
+    [name=items] {
+      display: none;
+    }
+}
+
+.visible {
+  display: inherit
+}
+

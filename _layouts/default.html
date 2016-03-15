@@ -6,51 +6,94 @@
         <meta name="author" content="Andrew Winterman" />
         <link rel="stylesheet" href="{{root}}/css/style.css" type="text/css" />
         <link rel="stylesheet" href="{{root}}/css/syntax.css" type="text/css" />
+        <script>
+            window.onload = ready
+
+            function ready(e) {
+                var visible = false
+                var nav = document.body.querySelector('nav')
+                var toggle = nav.querySelector("[name=toggle]");
+
+                toggle.addEventListener("touchstart", ontouch, true)
+                toggle.addEventListener("mousedown", ontouch, true)
+
+                document.addEventListener('touchstart', onArtTouch, true)
+                document.addEventListener('mousedown', onArtTouch, true)
+
+                function onArtTouch(event) {
+                    if (event.target.classList.contains('toggle')) {
+                        return;
+                    }
+                    event.preventDefault()
+                    nav.querySelector("[name=items]").classList.remove('visible')
+                    visible = false
+                }
+
+                function ontouch(event) {
+                    event.preventDefault()
+
+                    if (visible) {
+                        nav.querySelector("[name=items]").classList.remove('visible')
+                    } else {
+                        nav.querySelector("[name=items]").classList.add('visible')
+                    }
+
+                    visible = !visible
+                }
+            }
+        </script>
 </head>
 
 <body>
     <nav>
-      <h2>
-            <a href="/">/</a> 
-      </h2>
-      <div>
-        <h2>me</h2>
-        <ul>
-            <li>
-            <a href=https://s3.amazonaws.com/awinterman-assets/AndrewWintermanResume.pdf>Resume</a>
+        <h2 name="toggle" class="toggle">
+             <button class="toggle">
+                 <a href="#" class="toggle">nav</a>
+             </button>
+         </h2>
+         <div name=items>
+          <h2 class=item>
+                <a href="/">/</a>
+          </h2>
+          <div class=item>
+            <h2>me</h2>
+            <ul>
+                <li>
+                <a href=https://s3.amazonaws.com/awinterman-assets/AndrewWintermanResume.pdf>Resume</a>
+                </li>
+            </ul>
+          </div>
+          <div class=item>
+            <h2>projects</h2>
+            <ul>
+                <li>
+                    <a href="http://awinterman.github.io/simple-scuttle/">Simple Scuttle</a>
+                </li>
+                <li>
+                    <a
+                        href="https://github.com/AWinterman/api_object_specification">
+                        JSON API Specification Language
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com/AWinterman/node-fsj">fsj</a> and
+                    <a href="https://github.com/AWinterman/fsj-render">assorted</a> <a href="https://github.com/AWinterman/fsj-blog">projects</a>
+                </li>
+            </ul>
+          </div>
+          <div class="blog item">
+              <h2>blergh</h2>
+            <ul>
+            {% for post in site.posts %}
+            <a href="{{ post.url }}">
+            <li class="{% if post.id == page.id %} current {% endif %}" >
+                <div>{{ post.title }} </div>
+                <div>({{ post.date | date_to_string }})</div>
             </li>
-        </ul>
-      </div>    
-      <div>
-        <h2>projects</h2>
-        <ul>
-            <li>
-                <a href="http://awinterman.github.io/simple-scuttle/">Simple Scuttle</a>
-            </li>
-            <li>
-                <a
-                    href="https://github.com/AWinterman/api_object_specification">
-                    JSON API Specification Language
-                </a>
-            </li>
-            <li>
-                <a href="https://github.com/AWinterman/node-fsj">fsj</a> and
-                <a href="https://github.com/AWinterman/fsj-render">assorted</a> <a href="https://github.com/AWinterman/fsj-blog">projects</a>
-            </li>
-        </ul>
-      </div>    
-      <div class="blog">
-          <h2>blergh</h2>
-        <ul>
-        {% for post in site.posts %}
-        <a href="{{ post.url }}"> 
-        <li {% if post.id == page.id %} class="current" {% endif %}>
-            <div>{{ post.title }} </div>
-            <div>({{ post.date | date_to_string }})</div>
-        </li>
-        </a>
-        {% endfor %}
-        </ul>
+            </a>
+            {% endfor %}
+            </ul>
+          </div>
       </div>
     </nav>
 
