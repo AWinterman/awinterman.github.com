@@ -15,10 +15,8 @@
                 var toggle = nav.querySelector("[name=toggle]");
 
                 toggle.addEventListener("touchstart", ontouch, true)
-                toggle.addEventListener("mousedown", ontouch, true)
 
                 document.addEventListener('touchstart', onArtTouch, true)
-                document.addEventListener('mousedown', onArtTouch, true)
 
                 function onArtTouch(event) {
                     if (event.target.classList.contains('toggle')) {
