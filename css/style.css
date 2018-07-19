@@ -119,11 +119,6 @@ only screen
         min-width: 5em;
     }
 
-    [name=items] {
-        position: absolute;
-        background-color: rgba(255,255,255,0.9);
-    }
-
     article {
         float: right;
         width: 95%;
@@ -133,9 +128,13 @@ only screen
       display: block;
     }
 
-    [name=items] {
-      display: none;
+    body {
+        text-align: initial;
     }
+
+    /*[name=items] {
+      display: none;
+    }*/
 }
 
 .visible {

@@ -6,49 +6,10 @@
         <meta name="author" content="Andrew Winterman" />
         <link rel="stylesheet" href="{{root}}/css/style.css" type="text/css" />
         <link rel="stylesheet" href="{{root}}/css/syntax.css" type="text/css" />
-        <script>
-            window.onload = ready
-
-            function ready(e) {
-                var visible = false
-                var nav = document.body.querySelector('nav')
-                var toggle = nav.querySelector("[name=toggle]");
-
-                toggle.addEventListener("touchstart", ontouch, true)
-
-                document.addEventListener('touchstart', onArtTouch, true)
-
-                function onArtTouch(event) {
-                    if (event.target.classList.contains('toggle')) {
-                        return;
-                    }
-                    event.preventDefault()
-                    nav.querySelector("[name=items]").classList.remove('visible')
-                    visible = false
-                }
-
-                function ontouch(event) {
-                    event.preventDefault()
-
-                    if (visible) {
-                        nav.querySelector("[name=items]").classList.remove('visible')
-                    } else {
-                        nav.querySelector("[name=items]").classList.add('visible')
-                    }
-
-                    visible = !visible
-                }
-            }
-        </script>
 </head>
 
 <body>
     <nav>
-        <h2 name="toggle" class="toggle">
-             <button class="toggle">
-                 <a href="#" class="toggle">nav</a>
-             </button>
-         </h2>
          <div name=items>
           <h2 class=item>
                 <a href="/">/</a>
@@ -64,6 +25,18 @@
           <div class=item>
             <h2>projects</h2>
             <ul>
+                <li>
+                    <a href="https://github.com/urbanairship/datacube">datacube:
+                    An OLAP cube implementation for counts on top of hbase</a>
+                </li>
+                <li>
+                    <a
+                    href="https://github.com/urbanairship/technical-blog/blob/master/AirshipUITesting.md"> Modernizing Urban Airship's front end testing framework</a>
+                </li>
+                <li>
+                    <a 
+                    href="https://www.urbanairship.com/blog/introducing-objectstate-minimal-one-way-data-binding">Object State</a>
+                </li>
                 <li>
                     <a href="http://awinterman.github.io/simple-scuttle/">Simple Scuttle</a>
                 </li>
@@ -93,6 +66,11 @@
             </ul>
           </div>
       </div>
+        <div name="toggle" class="toggle">
+          <h2>
+                 <a href="/nav.html" class="toggle">nav</a>
+          </h2>
+        </div>
     </nav>
 
     <article>
