@@ -11,19 +11,6 @@
                 </li>
             </ul>
           </div>
-          <div class="blog item">
-              <h2>blergh</h2>
-            <ul>
-            {% for post in site.posts %}
-            <a href="{{ post.url }}">
-            <li class="{% if post.id == page.id %} current {% endif %}" >
-                <div>{{ post.title }} </div>
-                <div>({{ post.date | date_to_string }})</div>
-            </li>
-            </a>
-            {% endfor %}
-            </ul>
-          </div>
           <div class=item>
             <h2>projects</h2>
             <ul>
@@ -65,5 +52,18 @@
                     displaying the results on a webpage.
 
                 </li>
+            </ul>
+          </div>
+          <div class="blog item">
+              <h2>blergh</h2>
+            <ul>
+            {% for post in site.posts %}
+            <a href="{{ post.url }}">
+            <li class="{% if post.id == page.id %} current {% endif %}" >
+                <div>{{ post.title }} </div>
+                <div>({{ post.date | date_to_string }})</div>
+            </li>
+            </a>
+            {% endfor %}
             </ul>
           </div>
