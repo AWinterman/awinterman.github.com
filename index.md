@@ -3,7 +3,9 @@ title: Andrew Winterman
 layout: title
 ---
 
-Java Engineer, Node and Front End JavaScript Engineer, API Designer, Ultimate Frisbee player, Lover of Books
+Software for work, Ultimate, Outdoorsmanship, reading for fun. I like thinking
+about housing that creates community, fair and effective transit, and the
+characteristics of the society I'd like to live in.
 
-This website has old ramblings, projects in various stages of completion, and
-whatever other digital effluvia seems fit for repackaged consumption.
+This website is a repository of digital effluvia I've collected, indexed for
+general consumption.
