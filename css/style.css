@@ -9,10 +9,6 @@ body {
     display: inline-block;
 }
 
-h1 {
-    margin-left: : auto;
-}
-
 
 h2, h3, h4, h5 {
     font-weight: lighter
@@ -75,6 +71,7 @@ nav li {
     padding: 0.5em 0.5em 0.5em 0.5em;
     margin-left: -0.5em;
     border: 1px solid white;
+    overflow-wrap: break-word;
 }
 
 nav li.current, nav div li:hover {
