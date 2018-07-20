@@ -3,7 +3,7 @@ title: Andrew Winterman
 layout: title
 ---
 
-Software for work, Ultimate, Outdoorsmanship, reading for fun. I like thinking
+Software for work, Ultimate, outdoorsmanship, reading for fun. I like thinking
 about housing that creates community, fair and effective transit, and the
 characteristics of the society I'd like to live in.
 
