@@ -9,6 +9,10 @@ body {
     display: inline-block;
 }
 
+h1 {
+    margin-left: : auto;
+}
+
 
 h2, h3, h4, h5 {
     font-weight: lighter
@@ -22,6 +26,12 @@ nav h2 {
 article {
     max-width: 40em;
     float: right;
+}
+
+article.landing {
+    float: none;
+    max-width: 40em;
+    margin: auto;
 }
 
 div.landing {

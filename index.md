@@ -7,4 +7,3 @@ Java Engineer, Node and Front End JavaScript Engineer, API Designer, Ultimate Fr
 
 This website has old ramblings, projects in various stages of completion, and
 whatever other digital effluvia seems fit for repackaged consumption.
-
