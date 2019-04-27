@@ -57,11 +57,11 @@ national discussions about this topic without naming those responsible for it?
 How is it that multinational banks are able to offer loans to students for those
 "pointless and fluffy" degrees and then demand repayment for the rest of their
 lives? Why don't students have recourse to bankruptcy or forgiveness? Why must
-they be the ones who bear the brunt of the banks bad bet?
+they be the ones who bear the brunt of the bank's bad bet?
 
 I think we *should* cancel student loan debt. Folks were sold a product that
 simply did not do what they were assured it would. The government helps people
 recover from this kind of maltreatment all the time. Afterwards, we should eat
 the plutocrats who sold us the bum deal in the first place, and use their
-ill-gotten gains to finance [free public college for the 50
+ill-gotten gains to finance [free public college for the next 50
 years](https://www.rollingstone.com/politics/politics-news/how-wall-street-profits-from-student-debt-225700/),
