@@ -2,20 +2,59 @@
 layout: default
 ---
 
-<div style="clear: both"></div>
+{% capture the_collection %}{{page.collection}}{% endcapture %}
+  {% if page.collection %}
+    {% assign  document = site[the_collection]  %}
+  {% endif %}
+{% for links in document  %}
+  {% if links.title == page.title %}
+    {% unless forloop.first %}
+      {% assign p = prev %}
+    {% endunless %}
+    {% unless forloop.last %}
+      {% assign next = document[forloop.index] %}
+      {% assign n = next %}
+    {% endunless %}
+  {% endif %}
+  {% assign prev = links %}
+{% endfor %}
 
-<nav class=left-down>
-{% include nav.html %}
-</nav>
+
 
 <article>
 	<h1>  {{page.title}}  </h1>
 	<div class="subtitle"> {{page.subtitle}} 
 	</div>
 	<hr/>
-	<div id="content" class="post-right">
+	<div id="content">
 	{{ content }}
 	</div>
+
+    <nav class="table">
+        <ul>
+            <li>{% if n %}
+                <i class="fas fa-angle-left"></i>
+                <a href="{{n.url}}" class="nxt">{{n.title}}</a>
+                {% endif %}
+            </li>
+            <li>
+                <i class="fas fa-angle-up"></i>
+                <a href="{{site.url}}">home</a>
+            </li>
+            <li>{% if n %}
+                <a href="{{p.baseurl}}" class="prev">{{p.title}}</a>
+                <i class="fas fa-angle-right"></i> 
+                {% endif %}</li>
+        </ul>
+    </nav>
 </article>
+
+<script>
+document.body.onkeyup = function(e){
+if (e.keyCode == '37') { window.location = '{{p.url}}'; }
+if (e.keyCode == '39') { window.location = '{{n.url}}'; }
+};
+</script>
+
 
 
