@@ -56,13 +56,15 @@ feels obvious to say it, but a worker's interpretation of personality is highly
 personal, and tied into cultural and religious factors that they should not be
 required to bring to the workplace.
 
-The enneagram asserts to help us understand aspects of ourselves which
+The enneagram asserts that it can help us understand aspects of ourselves which
 we did not already know, or could not already explain to a coworker, given
 adequate time and intention. This is hogwash because of the very nature of the
-test-- a worker answer a series of questions, it uses some deterministic algorithm
-to interpret those questions into a "personality." It either tells a worker exactly
-what they put into it, and no more, *or* it makes leaps to judgement we have no
-actual reason  to beleive.
+test-- a worker answer a series of questions. The enneagram uses some
+deterministic series of steps to interpret those questions into a "personality."
+It can't possible have additional information, so *at best* tells a worker
+exactly what they put into it. If it's proponents purport it does more, either
+they are lying, or it must make leaps to judgements that cannot be justified and
+which we have no reason to believe.
 
 ## A Physical Parallel
 
@@ -76,8 +78,8 @@ military equipment was all made to the average sized person.  Uncomfortable
 enough when you're talking about boots, shirts, and pants, but actually
 dangerous when the same principle is applied to aircraft cockpits, where
 shorter-than-average workers might be literally unable to reach the
-average-person-sized controls. **On Average** concludes with the account of the
-invention of the adjustable cockpit, and sums up nicely:
+average-person-positioned controls. **On Average** concludes with the account of
+the invention of the adjustable cockpit, and sums up nicely:
 
 > Today, we take for granted that equipment should fit a wide range of body
 > sizes rather than being standardized around the “average person.” From this
@@ -85,17 +87,17 @@ invention of the adjustable cockpit, and sums up nicely:
 > people’s physical capacity to the needs of the job.
 >
 > Whether it’s the equipment, or the whole work environment, design must
-> accommodate more people who are outside the average &hellip; because in reality no
-> one is actually average.
+> accommodate more people who are outside the average &hellip; because in
+> reality no one is actually average.
 
 Yes, most trait-based models of personality have more than one axis, but I hope
 the parallel is clear. The built environment is an edifice of our understanding
 of people, and the way they use that environment. The failure of early cockpit
-designers was to mistake the power of the statistic. They replaced the power of
+designers was to mistake the power of the statistic. They trusted the mean over
 their own perceptions (obviously there are small and large people, whose
-differing geometries will affect their ability to operate a specific machine)
-with faith in a technical mechanic whose inner workings they did not fully
-understand.
+differing geometries will affect their ability to operate a specific machine).
+Instead of their own human understanding, they relied on faith in a technical
+mechanic whose inner workings they did not fully understand.
 
 ## Expectations Matter
 
@@ -114,7 +116,8 @@ attended by stories, others tolds about my culture: Jews are good with money
 intelligent, avaricious, argumentative, vulgar, and loud. My grandparents are
 holocaust survivors, traumatized by adherants to a genocidal philosophy of
 personhood that replaced the individual with the race and then ascribed to the
-race characteristics which must be evaluated before permitting survival.
+race characteristics which must be evaluated before permitting the survival *of
+my grandparents*.
 
 The Nazis had a trait based model of personality. Allow me to draw some
 parallels to the enneagram:
@@ -143,9 +146,8 @@ raise:
 - Forcing your employees to take a personality test requires emotional labor
 employers have no right to ask of their employees, since it is completely
 unrelated to accomplishing the tasks agreed upon for their employment.
-- It attempts to take control over a worker's story away from them
-- It can tell a test taker nothing except for what they tell it
+- It takes control over a worker's personal inner narrative. 
 
 There is no oath of management, but managers could do worse than starting with
 Hipocrates's: "First, Do No Harm." Forcing your employees to take a personality
-test, even one with scientific backing, fails this basic test.
+test, even one with scientific backing, fails Hipocrates oath.
